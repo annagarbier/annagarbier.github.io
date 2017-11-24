@@ -1,0 +1,219 @@
+/* Style page for Portfolio index.html
+
+  Contents:
+     Page-universal formatting
+     Main landing special formatting
+     Content section special formatting
+     Modals and image interaction
+/*
+
+/* Page-universal formatting */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: white;
+  font-weight: 200;
+}
+
+h1, h2{
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+a {
+  color: #330033;
+}
+
+b {
+  font-weight: 200px;
+}
+
+/* Main landing */
+.title-container {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-image: url('../birds_title.jpg');
+  letter-spacing: 2px;
+}
+
+.name {
+  font-size: 7vw;
+  font-weight: 100;
+  margin: auto;
+  margin-top: 15%;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  position: relative;
+}
+
+/* Content */
+.main {
+    max-width: 98%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.main * {
+    box-sizing: border-box;
+}
+
+h1 {
+    word-break: break-all;
+    text-align: center;
+}
+
+.project-desc {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 50px 20px;
+  min-width: 400px;
+  max-width: 66%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row, .row-xl {
+    margin: 8px -16px;
+}
+
+/* Padding between columns */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.row-xl,
+.row-xl > .column-xl {
+    padding: 8px;
+}
+
+/* Columns float next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+.column-xl {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after rows */
+.row:after, .row-xl:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content container holds the image and the image's metadata */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+.content-details {
+  padding: 5px;
+}
+
+.content-details p {
+  padding-left: 5px;
+  border-left: 1px solid black;
+  margin: 0px;
+}
+
+/* Make two column layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Make one column layout instead of two columns */
+@media (max-width: 600px) {
+    .column, .column-xl {
+        width: 100%;
+    }
+}
+
+/* Modal and image interaction */
+.row img, .row-xl img {
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.row img:hover, .row-xl img:hover {
+  opacity: 0.8;
+}
+
+/* The modal background and sizing */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255,255,255);
+    background-color: rgb(255,255,255,0.8);
+}
+
+/* Modal image */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Modal animation */
+.modal-content {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* Modal close button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
