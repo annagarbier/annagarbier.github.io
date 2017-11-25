@@ -128,14 +128,14 @@ h1 {
 }
 
 /* Make two column layout instead of four columns */
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
     .column {
         width: 50%;
     }
 }
 
 /* Make one column layout instead of two columns */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .column, .column-xl {
         width: 100%;
     }
