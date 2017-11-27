@@ -36,7 +36,7 @@ b {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  background-image: url('../birds_title_single.jpg');
+  /*background-image: url('../birds_title_single.jpg');*/
   letter-spacing: 2px;
 }
 
