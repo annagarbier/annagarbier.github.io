@@ -36,20 +36,20 @@ b {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  background-image: url('../IMG_3536_title_bw.jpg');
+  background-image: url('../title_3.jpg');
   letter-spacing: 2px;
 }
 
 .name {
-  font-size: 7vw;
+  font-size: 6vw;
   font-weight: 100;
   margin: auto;
   margin-top: 15%;
   padding: 10px;
   border-radius: 10px;
+  position: relative;
   color: black;
   background-color: white;
-  position: relative;
 }
 
 /* Content */
