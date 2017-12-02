@@ -105,8 +105,15 @@ h1 {
     width: 50%;
 }
 
+.column-xxl {
+  float: left;
+  width: 100%;
+}
+
 /* Clear floats after rows */
-.row:after, .row-xl:after {
+.row:after,
+.row-xl:after,
+.row-xxl:after {
     content: "";
     display: table;
     clear: both;
@@ -143,13 +150,17 @@ h1 {
 }
 
 /* Modal and image interaction */
-.row img, .row-xl img {
+.row img,
+.row-xl img,
+.row-xxl img {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 10px;
 }
 
-.row img:hover, .row-xl img:hover {
+.row img:hover,
+.row-xl img:hover,
+.row-xx-l img:hover {
   opacity: 0.8;
 }
 
