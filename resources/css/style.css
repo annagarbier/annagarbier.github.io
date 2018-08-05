@@ -1,232 +1,156 @@
-/* Style page for Portfolio index.html
+/*  Portfolio website styles */
 
-  Contents:
-     Page-universal formatting
-     Main landing special formatting
-     Content section special formatting
-     Modals and image interaction
-/*
-
-/* Page-universal formatting */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  background-color: white;
-  font-weight: 200;
+/* BODY */
+body {
+	font-family: "Courier New", Courier;
+	padding: 0px;
+	margin: 0px;
 }
 
-h1, h2{
-  font-weight: 100;
-  letter-spacing: 2px;
+.bold {
+	font-weight: bold;
 }
 
-a {
-  color: #330033;
+/* HOME HEADER */
+.header {
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    padding-bottom: 15px;
+    margin: 0px;
+    padding: 2%;
 }
 
-b {
-  font-weight: 400;
+.header li {
+	float: left;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-size: 30px;
+	border-bottom: 1px solid black;
+	padding-right: 30px;
 }
 
-/* Main landing */
-.title-container {
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  background-image: url('../title_3.jpg');
-  letter-spacing: 2px;
+.last-li {
+	padding-right: 0px;
 }
 
-.name {
-  font-size: 6vw;
-  font-weight: 100;
-  margin: auto;
-  margin-top: 15%;
-  padding: 10px;
-  border-radius: 10px;
-  position: relative;
-  color: black;
-  background-color: white;
+@media (max-width: 800px) {
+    .header li {
+    	font-size: 24px;
+    }
 }
 
-/* Content */
-.main {
-    max-width: 98%;
-    margin: auto;
-    margin-top: 10px;
+.header a:hover {
+	text-decoration: underline;
 }
 
-.main * {
-    box-sizing: border-box;
+.header a {
+	text-decoration: none;
+	color: black;
 }
 
-h1 {
-    word-break: break-all;
-    text-align: center;
+/* HOME TILES */
+.tiles {
+	margin-top: 95px;
+	position: absolute;
+	width: 100%;
 }
 
-.project-desc {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding: 50px 20px;
-  min-width: 400px;
-  max-width: 80%;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.tile-col-text p {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 5px;
+  font-size: 16px;
 }
 
-.row, .row-xl {
-    margin: 8px -16px;
+.tile-row > .tile-col {
+    padding: 2%;
 }
 
-/* Padding between columns */
-.row,
-.row > .column {
-    padding: 8px;
-}
-
-.row-xl,
-.row-xl > .column-xl {
-    padding: 8px;
-}
-
-/* Columns float next to each other */
-.column {
-    float: left;
-    width: 25%;
-}
-
-.column-xl {
-    float: left;
-    width: 50%;
-}
-
-.column-xxl {
-  float: left;
-  width: 100%;
-}
-
-/* Clear floats after rows */
-.row:after,
-.row-xl:after,
-.row-xxl:after {
+.tile-row:after {
     content: "";
     display: table;
     clear: both;
+    justify-content: space-between;
 }
 
-/* Content container holds the image and the image's metadata */
+/* Large window */
+.tile-col {
+    float: left;
+    width: 21%;
+}
+
+/* Medium window */
+@media (max-width: 1200px) {
+    .tile-col {
+    width: 46%;
+    }
+}
+
+/* Narrow window */
+@media (max-width: 800px) {
+    .tile-col {
+    width: 90%;
+    }
+}
+
+/* CONTENT PAGES */
 .content {
-    background-color: white;
-    padding: 10px;
+	margin-top: 85px;
+	position: absolute;
+	width: 100%;
 }
 
-.content-details {
-  padding: 5px;
+.content-row > .content-col-left,
+.content-col-right,
+.content-col-full {
+    padding: 2%;
 }
 
-.content-details p {
-  padding-left: 5px;
-  border-left: 1px solid black;
-  margin: 0px;
+.content-row:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: space-between;
 }
 
-/* Make two column layout instead of four columns */
-@media (max-width: 1080px) {
-    .column {
-        width: 50%;
+/* Large window */
+.content-col-left {
+    float: left;
+    width: 45%;
+}
+
+.content-col-right {
+    float: left;
+    width: 45%;
+}
+
+.content-col-full {
+    float: left;
+    width: 96%;
+}
+
+/* Medium and small windows */
+@media (max-width: 1200px) {
+    .content-col-left, .content-col-right {
+    width: 96%;
     }
 }
 
-/* Make one column layout instead of two columns */
-@media (max-width: 700px) {
-    .column, .column-xl {
-        width: 100%;
-    }
+.content p {
+	font-size: 18px;
 }
 
-/* Modal and image interaction */
-.row img,
-.row-xl img,
-.row-xxl img {
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 10px;
+.content p.project-title {
+	font-weight: bold;
+	font-size: 30px;
 }
 
-.row img:hover,
-.row-xl img:hover,
-.row-xx-l img:hover {
-  opacity: 0.8;
-}
-
-/* The modal background and sizing */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(255,255,255);
-    background-color: rgb(255,255,255,0.8);
-}
-
-/* Modal image */
-.modal-content {
-    margin: auto;
-    display: block;
-    max-width: 100%;
-    max-height: 95%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/* Modal animation */
-.modal-content {
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)}
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
-}
-
-/* Modal close button */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: black;
-    background-color: white;
-    font-size: 50px;
-    font-weight: 100;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
+.bio {
+	margin: 2%;
+	margin-right: 20%;
 }
