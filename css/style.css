@@ -1,0 +1,135 @@
+/* MFADT Major Studio 1 | stylesheet
+   Author: Anna Garbier */
+
+/* BODY */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* HOME HEADER */
+.header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  margin: 0px;
+  padding: 2%;
+}
+
+.header li {
+	float: left;
+	display: block;
+	text-align: left;
+	font-size: 24px;
+	padding-right: 30px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header a:hover {
+	text-decoration: underline;
+}
+
+/* HOME TILES */
+/* Also applies to the content (project) pages */
+.tiles, .content {
+	margin-top: 80px;
+	position: absolute;
+	width: 100%;
+}
+
+.tile-col-text p {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+.tile-row > .tile-col {
+ padding: 2%;
+}
+
+.tile-col img {
+  width: 100%;
+}
+
+/* Break points */
+/* Large window is three columns wide */
+.tile-col {
+  float: left;
+  width: 29%;
+}
+
+/* Medium window is two columns wide */
+@media (max-width: 1200px) {
+  .tile-col {
+  width: 46%;
+  }
+}
+
+/* Narrow window is one column wide */
+@media (max-width: 800px) {
+  .tile-col {
+  width: 95%;
+  height: 100%;
+  }
+}
+
+/* CONTENT PAGES */
+.content-row > .content-col-left,
+.content-col-right,
+.content-col-full {
+    padding: 2%;
+}
+
+/* Project pages can be configured to have full or half-width
+  images/text by default. All are responsive to window size */
+
+/* Half-width content */
+.content-col-left, .content-col-right {
+  float: left;
+  width: 45%;
+}
+
+.content-col-full {
+  float: left;
+  width: 96%;
+}
+
+.content-col-left img,
+.content-col-right img,
+.content-col-full img {
+  width: 100%;
+}
+
+.content p.project-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Break point */
+/* Medium and small windows are one column wide */
+@media (max-width: 1200px) {
+  .content-col-left, .content-col-right {
+  width: 96%;
+  }
+}
+
+/* ABOUT ME PAGE */
+.bio {
+  margin: 2%;
+  margin-right: 10%;
+}
+
+
+.header ul li.active-link>a {
+     text-decoration: underline;
+     color: green;
+ }
