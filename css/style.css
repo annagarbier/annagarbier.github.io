@@ -11,7 +11,7 @@ body {
 /* HOME HEADER */
 .header {
   overflow: hidden;
-  position: fixed;
+/*  position: fixed;*/
   top: 0;
   width: 100%;
   background-color: white;
@@ -40,7 +40,7 @@ body {
 /* HOME TILES */
 /* Also applies to the content (project) pages */
 .tiles, .content {
-	margin-top: 80px;
+/*	margin-top: 80px;*/
 	position: absolute;
 	width: 100%;
 }
@@ -145,6 +145,19 @@ body {
   margin-right: 10%;
 }
 
+.hacky-divider {
+  height: 0px;
+  padding: 0px;
+}
+
+.project-desc {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.project-title {
+  font-weight: bold;
+}
 
 .header ul li.active-link>a {
      text-decoration: underline;
