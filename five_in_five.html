@@ -19,52 +19,82 @@
 	</div>
 
 	<div class="content">
+		<!-- Day 1 -->
+		<div class="project-desc">
+	        <p><span class="project-title" id="day1">Day 1: Spelling it out with emojis</span><br><br>
+	        <i>It has been pointed out that human beings, by agreement, can make anything stand for anything.</i><br>
+	        - Samuel Ichiye Hayakawa, Language in Thought and Action (1945)
+	        <br><br>
+	        <p>This block of emojis may look random on first look. But, by systematically switching letters with emojis using a 1:1 mapping, I've actually created a block of emojis that encodes the preamble to the Constitution of the United States. You can read it from the top left, moving right across each row:
+	        <br><br>
+	        <i>We the People of the United States, in order to form a more perfect Union, establish justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</i>
+	        <br><br>
+	        Though an emoji alphabet is ridiculous in practice (nobody really wants to read or write like this), it does demonstrate Hayakawa's point: we can make anything stand for anything. We can even make emojis stand for complex, constitutional principles of <i>justice</i>, <i>tranquility</i>, and <i>blessings for ourselves and our posterity</i>.
+	        <br><br>Notes and Resources:
+	        <ul>
+	            <li>Emojis were downloaded from <a href="https://www.emojione.com/emoji/v4" target="_blank">EmojiOne</a>.</li>
+	          	<li>Future iterations: make this web-interactive using p5.js.</li>
+			</div>
 		<div class="content-row">
+			<div class="content-col-full">
+	          	<img src="./resources/semiotics_constitution.jpg">
+			</div>
+		<div>
 
-			<!-- Day 1 -->
-			<div class="content-col-left">
-	          	<p class="project-title">Day 1: Spelling it out with emojis</p>
-	          	<p><i>It has been pointed out that human beings, by agreement, can make anything stand for anything.</i><br>
-	          	- Samuel Ichiye Hayakawa, Language in Thought and Action (1945)
+		<!-- Day 2 -->
+		<div class="project-desc">
+			<p>
+	          	<span class="project-title" id="day2">Day 2: A new voder</span><br><br>
+	          	<i>At a recent World Fair a machine called a Voder was shown. A girl stroked its keys and it emitted recognizable speech. No human vocal chords entered into the procedure at any point; the keys simply combined some electrically produced vibrations and passed these on to a loud-speaker.</i>
+	          	- Vannevar Bush, <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="_blank">As We May Think (1945)</a>
+	          	<br><br>I've been working in language technology for several years now, but missed the <a href="https://www.youtube.com/embed/5hyI_dM5cGo" target="_blank">Voder machine</a> by several decades. I love this machine. Sure, it won't win any turing test, but its mechanics are obvious and as a machine-- it's asking to be mastered by the player. Set against a world of machine learning technology, the Voder's simplicity and affordance to be mastered are charming qualities.
 	          	<br><br>
-	          	<p>This block of emojis spells out the preamble to the Constitution of the United States of America. You can read it from the top left, moving right across each row:
-	          	<br><br>
-	          	<i>We the People of the United States, in Order to form a more perfect Union, establish justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</i>
-	          	<br><br>
-	          	Though an emoji alphabet is ridiculous in practice (nobody really wants to read or write like this), it does demonstrate Hayakawa's point: we can make anything stand for anything. We can even make emojis stand for complex, constitutional principles of <i>justice</i>, <i>tranquility</i>, and <i>blessings for ourselves and our posterity</i>.
-	          	<br><br>This relationship between signifier and idea is a powerful thing.
-
+	          	The Processing project below started with the question: if I were going to make myself a personal Voder, how would I do it? My self-imposed requirements are: it has to be playable with my hands (even if via a keyboard) and I must have manual control of every sound sequence.
 	          	<br><br>Notes and Resources:
 	          	<ul>
-	          		<li>Emojis were downloaded from <a href="https://www.emojione.com/emoji/v4" target="_blank">EmojiOne</a>.</li>
-	          		<li>Future iterations: make this web-interactive using p5.js.
-			</div>
-			<div class="content-col-right">
-	          	<img src="./resources/semiotics_constitution.gif">
-			</div>
-
-			<!-- Day 2 -->
-			<div class="content-col-full">
-				<hr>
-	          	<p class="project-title">Day 2: A new Voder</p>
-	          	<p>
-	          		<i>At a recent World Fair a machine called a Voder was shown. A girl stroked its keys and it emitted recognizable speech. No human vocal chords entered into the procedure at any point; the keys simply combined some electrically produced vibrations and passed these on to a loud-speaker.</i>
-	          		- Vannevar Bush, <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="_blank">As We May Think (1945)</a>
-	          		<br><br>I've been working in language technology for several years now, but missed the <a href="https://www.youtube.com/embed/5hyI_dM5cGo" target="_blank">Voder machine</a> by several decades. I love this machine. Sure, it won't win any turing test, but its mechanics are obvious and as a machine-- it's asking to be mastered by the player. Set against a world of machine learning technology, the Voder's simplicity and affordance to be mastered are charming qualities.
-	          		<br><br>
-	          		The Processing project below started with the question: <span class="bold">if I were going to make myself a personal Voder, how would I do it?</span> My self-imposed requirements are: it has to be playable with my hands (even if via a keyboard) and I must have manual control of every sound sequence.
-	          		<br><br>Notes and Resources:
-	          		<ul>
-	          			<li>Reading: <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="_blank">As We May Think (1945)</a>, Vannevar Bush</li>
-	          			<li>Learning along the way: I realized late in the process that registering multiple, simultaneous key presses in Processing is non-trivial, so this original intention was not seen through for this first version, but the seed of the idea is functioning
-	          			<li>Future iterations: move this into the physical world</li>
-	          		</ul>
-	          		</p>
-			</div>
+	          		<li>Reading: <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="_blank">As We May Think (1945)</a>, Vannevar Bush</li>
+	          		<li>Learning along the way: I realized late in the process that registering multiple, simultaneous key presses in Processing is non-trivial, so this original intention was not seen through for this first version, but the seed of the idea is functioning</li>
+	          		<li>Future iterations: move this into the physical world</li>
+	          	</ul>
+	        </p>
+		</div>
+		<div class="content-row">
 			<div class="content-col-full">
 	          	<img src="./resources/voder.gif">
 			</div>
 		</div>
-	</div>
+
+		<!-- Day 3 -->
+		<div class="project-desc">
+		        <p>
+		        	<span class="project-title" id="day3">Day 3: Hello, lights</span><br><br>
+	          		<i>Two types of blinks, two vowel sounds, two different anything, really, can with suitable combinations convey all types of information.</i><br>
+	          		- Charles Petzold, The Hidden Language of Computer Software (2000)
+					<br><br>
+	          		In this project, a set of six lights are programmed to display the words, "hello world" using <a href="https://en.wikipedia.org/wiki/Braille#Letters" target="_new">Braille's six-dot convention</a>. Materials include an Arduino Uno, Breadboard, 6 LED lights and supporting wires and breakers.
+	          		<br><br>
+	          		There's an obvious conceptual tension in this project: I've converted one visual writing system (Latin alphabet) into another visual writing system (lights) through a writing system designed for touch. As a follow up, I'd can imagine a non-visual output. For example, rather than display lights, I could move a pin or otherwise manipulate a surface...<br>
+	          		<br>Taking it one step further, I can image a full, automatic speech-to-Braille and Braille-to-speech conversion system building off of the basic ideas here.
+	          	</p>
+	        </div>
+		<div class="content-row">
+		    <div class="content-col-left">
+				<img src="./resources/arduino_braille_basics.jpg">
+				<p class="minitext">This prototype tests the baisc code and hardware functionality. I make sure I can turn two lights on in sequence and in parallel. During this testing, I learned that keyboard interaction would be out-of-scope for this 1-day project, so I opted for hard-coded "hello world" from here on out.
+		    </div>
+		    <div class="content-col-right">
+		    	<img src="./resources/arduino_braille_code_1.png">
+				<p class="minitext">Code snippet. This code defines a function called <span class="code">displayBrailleH();</span>. Calling this function from the main loop will trigger the H pattern of lights.
+		    </div>
+		    <div class="content-col-full" class="hacky-divider"></div>
+		    <div class="content-col-left">
+				<img src="./resources/arduino_braille_final_setup.jpg">
+				<p class="minitext">Final hardware setup.
+		    </div>
+			<div class="content-col-right">
+		    	<img src="./resources/arduino_braille.gif">
+		    	<p class="minitext"><span class="bold">Final artifact</span>: lights pre-programmed to spell "hello world" via Arduino.
+			</div>
+		</div>
 </body>
 </html>
