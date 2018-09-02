@@ -114,12 +114,29 @@ body {
   font-size: 24px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /* Break point */
 /* Medium and small windows are one column wide */
 @media (max-width: 1200px) {
   .content-col-left, .content-col-right {
   width: 96%;
   }
+}
+
+.image-in-text {
+  float: right;
+  padding: 20px;
+}
+
+.minitext {
+  font-size: 12px;
+}
+
+.code {
+  font-family: "Courier New", Courier;
 }
 
 /* ABOUT ME PAGE */
