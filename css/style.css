@@ -42,7 +42,9 @@ body {
 .tiles, .content {
 /*	margin-top: 80px;*/
 	position: absolute;
-	width: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
+	width: 80%;
 }
 
 .tile-col-text p {
@@ -139,20 +141,23 @@ body {
   font-family: "Courier New", Courier;
 }
 
+
 /* ABOUT ME PAGE */
 .bio {
   margin: 2%;
   margin-right: 10%;
 }
 
-.hacky-divider {
-  height: 0px;
-  padding: 0px;
-}
-
 .project-desc {
   padding-right: 15%;
   padding-left: 15%;
+}
+
+.visual-divider {
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .project-title {
