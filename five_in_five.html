@@ -28,10 +28,11 @@
 				<li><a href="#day1">Day 1: Spelling it out with emojis</a></li>
 				<li><a href="#day2">Day 2: A new Voder</a></li>
 				<li><a href="#day3">Day 3: Hello, lights</a></li>
+				<li><a href="#day4">Day 4: The rest of the planet</a></li>
 			</ul>
 		</nav>
 	</div>
-	<div class="visual-divider">
+	<div class="content-col-full">
 		<hr>
 	</div>
 		<!-- Day 1 -->
@@ -57,13 +58,13 @@
 		<div>
 
 		<!-- Day 2 -->
-		<div class="visual-divider">
+		<div class="content-col-full">
 			<hr>
 		</div>
 		<div class="project-desc">
 			<p>
 	          	<span class="project-title" id="day2">Day 2: A new Voder</span><br><br>
-	          	<i>At a recent World Fair a machine called a Voder was shown. A girl stroked its keys and it emitted recognizable speech. No human vocal chords entered into the procedure at any point; the keys simply combined some electrically produced vibrations and passed these on to a loud-speaker.</i>
+	          	<i>At a recent World Fair a machine called a Voder was shown. A girl stroked its keys and it emitted recognizable speech. No human vocal chords entered into the procedure at any point; the keys simply combined some electrically produced vibrations and passed these on to a loud-speaker.</i><br>
 	          	- Vannevar Bush, <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="_blank">As We May Think (1945)</a>
 	          	<br><br>I've been working in language technology for several years now, but missed the <a href="https://www.youtube.com/embed/5hyI_dM5cGo" target="_blank">Voder machine</a> by several decades. I love this machine. Sure, it won't win any turing test, but its mechanics are obvious and as a machine-- it's asking to be mastered by the player. Set against a world of machine learning technology, the Voder's simplicity and affordance to be mastered are charming qualities.
 	          	<br><br>
@@ -83,7 +84,7 @@
 		</div>
 
 		<!-- Day 3 -->
-		<div class="visual-divider">
+		<div class="content-col-full">
 			<hr>
 		</div>
 		<div class="project-desc">
@@ -98,24 +99,74 @@
 	          		<br>Taking it one step further, I can image a full, automatic speech-to-Braille and Braille-to-speech conversion system building off of the basic ideas here.
 	          	</p>
 	        </div>
+	    </div>
 		<div class="content-row">
 		    <div class="content-col-left">
 				<img src="./resources/arduino_braille_basics.jpg">
-				<p class="minitext">This prototype tests the baisc code and hardware functionality. I make sure I can turn two lights on in sequence and in parallel. During this testing, I learned that keyboard interaction would be out-of-scope for this 1-day project, so I opted for hard-coded "hello world" from here on out.
+				<p class="minitext">This prototype tests the baisc code and hardware functionality. I make sure I can turn two lights on in sequence and in parallel. During this testing, I learned that keyboard interaction would be out-of-scope for this 1-day project, so I opted for hard-coded "hello world" from here on out.</p>
 		    </div>
 		    <div class="content-col-right">
 		    	<img src="./resources/arduino_braille_code_1.png">
-				<p class="minitext">Code snippet. This code defines a function called <span class="code">displayBrailleH();</span>. Calling this function from the main loop will trigger the H pattern of lights.
+				<p class="minitext">Code snippet. This code defines a function called <span class="code">displayBrailleH();</span>. Calling this function from the main loop will trigger the H pattern of lights.</p>
 		    </div>
 		    <div class="content-col-full" class="hacky-divider"></div>
 		    <div class="content-col-left">
 				<img src="./resources/arduino_braille_final_setup.jpg">
-				<p class="minitext">Final hardware setup.
+				<p class="minitext">Final hardware setup.</p>
 		    </div>
 			<div class="content-col-right">
 		    	<img src="./resources/arduino_braille.gif">
-		    	<p class="minitext"><span class="bold">Final artifact</span>: lights pre-programmed to spell "hello world" via Arduino.
+		    	<p class="minitext"><span class="bold">Final artifact</span>: lights pre-programmed to spell "hello world" via Arduino.</p>
 			</div>
-		</div>
+
+			<!-- Day 4 -->
+			<div class="content-col-full">
+				<hr>
+			</div>
+			<div class="content-col-full">
+		        <p class="extra-margins">
+		        	<span class="project-title" id="day4">Day 4: The rest of the planet</span><br><br>
+	          		<i>We've embraced this Darwinian view of a continuity in physical evolution. But we've been much more reticent, much slower, in recognizing...continuity in cognition, in emotion, in consciousness in other animals.</i><br>
+	          		- Diana Reiss
+					<br><br>
+					<i>When I started to read about the amazing breakthroughs with Penny Patterson and Koko, with Sue Savage-Rambaugh and Kanzi...I got all excited. What was amazing to me also was they seemed a lot more adept at getting a handle on our language than we were on getting a handle on theirs.</i><br>
+	          		- Peter Gabriel
+					<br><br>
+					<i>The possibility of making a web server for a dollar grew into what became known as the Internet of Things....We were happy with ourselves....[and then] I realized we had missed something, which is the rest of the planet.</i><br>
+	          		- Neil Gershenfeld
+	          		<br><br>
+	          		<i>[When we designed the Internet] we thought we were building a system to connect computers together. What we very quickly discovered is that this was a system for connecting people together....Well you can see what's coming next. All kinds of possible sentient beings may be interconnected through this system.</i><br>
+	          		- Vint Cerf
+	          		<br><br>
+	          		- Selections from <a href="https://www.youtube.com/watch?v=wGMLhaa98GI" target="_blank">The Interspecies Internet? An idea in progress... (2013)</a>
+	          		<br><br>
+	          		Not wishing to tackle the challenge of an entire interspecies internet in one day, I chose a relatively modest project, still in the spirit of engaging with both animals and computation: whale vocalization visualization. Inspired by this <a href="http://responsivedesign.de/wp-content/uploads/2016/05/tutorial-06_processing-soundmapping2.pdf" target="blank">Digital Crafting tutorial</a>, I chose to create ink-like "signatures" for different whale calls via Processing.
+	          	</p>
+	        </div>
+	        <div class="content-col-full">
+				<img src="./resources/whale_humpback_1.jpg">
+				<p class="minitext"><a href="https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d4/Humpback_whale_wheezeblow.ogg/Humpback_whale_wheezeblow.ogg.mp3" target="_blank">Humpback whale</a></p>
+		    </div>
+		    <div class="content-col-full">
+				<img src="./resources/whale_blue.jpg">
+				<p class="minitext"><a href="https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/Blue_Whale_NE_Pacific.ogg/Blue_Whale_NE_Pacific.ogg.mp3" target="_blank">Blue whale</a></p>
+		    </div>
+		    <div class="content-col-full">
+				<img src="./resources/whale_killer.jpg">
+				<p class="minitext"><a href="https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Killer_whale.ogg/Killer_whale.ogg.mp3" target="_blank">Killer whale</a></p>
+		    </div>
+		    <div class="content-col-full">
+				<img src="./resources/whale_minke.jpg">
+				<p class="minitext"><a href="https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Atlantic_minke_whale_call.ogg/Atlantic_minke_whale_call.ogg.mp3" target="_blank">Atlantic minke whale</a></p>
+				<p class="minitext"><span class="bold">Final artifact</span>: These "signatures" visualize different whale vocalizations. Click on the link under each visual map to hear the corresponding audio, via Wikipedia.
+		    </div>
+
+
+
+	    </div>
+
+	    <!-- Day 5 -->
+	    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/AZ4oGBgxiuY?start=90" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+
 </body>
 </html>
