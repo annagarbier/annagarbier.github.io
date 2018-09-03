@@ -172,3 +172,8 @@ body {
  nav ul {
   list-style: none;
 }
+
+.extra-margins {
+  margin-left: 12%;
+  margin-right: 12%;
+}
