@@ -4,4 +4,4 @@
 * Status: in progress
 * Created: 2018-08-29
 
-Summary: Portfolio site showcasing work completed through MFADT Major Studio 1.
+Summary: Portfolio site highlighting completed and in-progress MFADT work.
