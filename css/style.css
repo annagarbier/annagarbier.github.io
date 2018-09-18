@@ -1,6 +1,8 @@
 /* MFADT Major Studio 1 | stylesheet
    Author: Anna Garbier */
 
+/* TODO: Code health throughout. */
+
 /* BODY */
 body {
 	font-family: Verdana, Geneva, sans-serif;
@@ -25,7 +27,11 @@ body {
 	display: block;
 	text-align: left;
 	font-size: 24px;
-	padding-right: 30px;
+  padding-right: 5px;
+}
+
+#anna {
+  padding-right: 30px;
 }
 
 .header a {
@@ -37,72 +43,53 @@ body {
 	text-decoration: underline;
 }
 
-/* HOME TILES */
-/* Also applies to the content (project) pages */
-.tiles, .content {
-/*	margin-top: 80px;*/
-	position: absolute;
-  margin-right: 10%;
-  margin-left: 10%;
-	width: 80%;
-}
-
-.tile-col-text p {
+.content-col-text p {
   padding: 0px;
   margin: 0px;
   padding-bottom: 5px;
   font-size: 16px;
 }
 
-.tile-row > .tile-col {
- padding: 2%;
-}
-
-.tile-col img {
-  width: 100%;
-}
-
-/* Break points */
-/* Large window is three columns wide */
-.tile-col {
-  float: left;
-  width: 29%;
-}
-
-/* Medium window is two columns wide */
-@media (max-width: 1200px) {
-  .tile-col {
-  width: 46%;
-  }
-}
-
-/* Narrow window is one column wide */
-@media (max-width: 800px) {
-  .tile-col {
-  width: 95%;
-  height: 100%;
-  }
-}
-
 /* CONTENT PAGES */
 .content-row > .content-col-left,
 .content-col-right,
 .content-col-full {
-    padding: 2%;
+/*    border: 1px solid red;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 /* Project pages can be configured to have full or half-width
   images/text by default. All are responsive to window size */
 
 /* Half-width content */
-.content-col-left, .content-col-right {
+.content-col-left {
   float: left;
-  width: 45%;
+  width: 47%;
+  padding-left: 2%;
+  padding-right: 1%;
+}
+
+.content-col-right {
+  float: right;
+  width: 47%;
+  padding-left: 1%;
+  padding-right: 2%;
 }
 
 .content-col-full {
   float: left;
   width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.hacky-divider {
+  display: block;
+  line-height:0;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
 }
 
 .content-col-left img,
@@ -164,11 +151,6 @@ body {
   font-weight: bold;
 }
 
-.header ul li.active-link>a {
-     text-decoration: underline;
-     color: green;
- }
-
  nav ul {
   list-style: none;
 }
@@ -176,4 +158,8 @@ body {
 .extra-margins {
   margin-left: 12%;
   margin-right: 12%;
+}
+
+nav .current-page {
+  text-decoration: underline;
 }
