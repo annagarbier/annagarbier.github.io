@@ -1,0 +1,497 @@
+/* MFADT Major Studio 1 | stylesheet
+   Author: Anna Garbier */
+
+/* TODO: Code health throughout. */
+
+/* ===== Start general formatting ===== */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 0px;
+	margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  height: 100%;
+}
+/* ===== End general formatting ===== */
+
+/* ===== Start header and navigation ===== */
+.title {
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.navigation,
+.subnavigation {
+  height: 100%;
+  min-width: 500px;
+  display: flex;
+/*  margin-top: 5px;*/
+  margin-bottom: 20px;
+  padding-left: 0px;
+  text-align: right;
+  margin-top: 0px;
+}
+
+.navigation li,
+.subnavigation li {
+  float: left;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+.navigation a,
+.subnavigation a {
+  text-decoration: none;
+  color: black;
+}
+
+.current-page,
+.navigation a:hover,
+.subnavigation a:hover {
+  background-color: yellow;
+}
+
+.subnavigation {
+  padding-top: 100px;
+}
+
+/* ===== End header and navigation ===== */
+
+
+/* ===== Start grid formatting ===== */
+.grid-row > .grid-col {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.grid {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.grid-col {
+  float: left;
+  width: 32%;
+  padding-right: 1%;
+}
+
+.grid-col img {
+  width: 100%;
+}
+
+/*@media (max-width: 1200px) {
+  .grid-col {
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
+}*/
+
+.grid p {
+  font-size: 12px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.grid-row-divider {
+  display: block;
+  line-height:0;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.description {
+  width: 81%;
+  float: left;
+}
+
+.description p {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+
+
+
+
+/* ===== Start project page formatting ===== */
+.content-col {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid red;
+}
+
+.content-col-text {
+  width: 20%;
+  margin-right: 12px;
+  float: left;
+  margin-top: 0px;
+  margin-right: 40px;
+}
+
+.content-col-text p {
+  font-size: 12px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+/* One column */
+.image-full {
+  width: 100%;
+}
+
+/* Two columns */
+.image-half-l {
+  width: 39%;
+  margin-right: 1%;
+}
+
+.image-half-r {
+  width: 39%;
+  margin-left: 1%;
+}
+
+/* Three columns */
+.image-third-l {
+  width: 20%;
+}
+
+.image-third-m {
+  width: 20%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.image-third-r {
+  width: 20%;
+}
+
+.yellow {
+  border-left: 6px solid yellow;
+  padding-left: 5px;
+  margin-bottom: 20px;
+
+}
+
+.image-caption {
+  margin-top: 0px;
+  font-size: 12px;
+  text-align: right;
+  color: gray;
+}
+
+
+
+/* new sunday */
+.content {
+  width: 80%;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.content-col-image {
+  display: flex;
+  float: right;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+/*.content-col-text {
+  width: 20%;
+  margin-left: 30px;
+  float: left;
+  min-width: 200px;
+}*/
+
+/*.content-col-text p {
+  font-size: 12px;
+  margin-top: 0px;
+}*/
+
+.content-col-image-full {
+  width: 100%;
+}
+
+.content-col-image-twothirds {
+  width: 70%;
+}
+
+.content-col-image-half-l {
+  width: 49%;
+  float: left;
+  margin-right: 1%;
+}
+
+.content-col-image-half-r {
+  width: 49%;
+  float: right;
+  margin-left: 1%;
+}
+
+.content-col-image-third-l {
+  width: 28%;
+  float: left;
+  margin-right: 3%;
+}
+
+.content-col-image-third-m {
+  width: 28%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.content-col-image-third-r {
+  width: 28%;
+  float: right;
+  margin-left: 3%;
+}
+
+
+.content-col-image-full img,
+.content-col-image-full video,
+.content-col-image-twothirds img,
+.content-col-image-twothirds video,
+.content-col-image-half-l img,
+.content-col-image-half-l video,
+.content-col-image-half-r img,
+.content-col-image-half-r video,
+.content-col-image-third-l img,
+.content-col-image-third-l video,
+.content-col-image-third-m img,
+.content-col-image-third-m video,
+.content-col-image-third-r img,
+.content-col-image-third-r video {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    width: 100%;
+  }
+
+  .content-col {
+    width: 100%;
+  }
+
+  .content-col-image {
+    width: 100%;
+  }
+
+  .content-col-text {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .content-col-image-twothirds,
+  .content-col-image-half-l,
+  .content-col-image-half-r,
+  .content-col-image-third-l,
+  .content-col-image-third-m,
+  .content-col-image-third-r {
+    width: 100%;
+    float: left;
+  }
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+
+
+/* Extras */
+.code {
+  font-family: "Courier New", Courier;
+  color: green;
+}
+
+.thumb-caption {
+  font-size: 12px;
+  margin: 0px;
+}
+
+.spacer {
+  height: 200px;
+}
+
+
+
+
+
+
+/* ============== OLD STUFF ============================ */
+
+
+
+
+/* HOME HEADER */
+/*.header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  margin: 0px;
+  padding: 2%;
+}*/
+
+/*.header li {
+	float: left;
+	display: block;
+	text-align: left;
+	font-size: 20px;
+  padding-right: 5px;
+}*/
+
+/*#anna {
+  padding-right: 30px;
+}*/
+
+/*.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header a:hover {
+	text-decoration: underline;
+}*/
+
+/*.content-col-text p {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}*/
+
+/* CONTENT PAGES */
+/*.content-row > .content-col-left,
+.content-col-right,
+.content-col-full,
+.content-col {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}*/
+
+/* Project pages can be configured to have full or half-width
+  images/text by default. All are responsive to window size */
+
+/* Half-width content */
+/*.content-col-left, .content-col {
+  float: left;
+  width: 47%;
+  padding-right: 1%;
+}*/
+
+/*.content-col-right {
+  float: right;
+  width: 47%;
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
+.content-col-full {
+  float: left;
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+}*/
+
+/*.hacky-divider {
+  display: block;
+  line-height:0;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+}*/
+
+/*.content-col-left img,
+.content-col img,
+.content-col-right img,
+.content-col-full img {
+  width: 80%;
+}*/
+
+/*.content p.project-title {
+  font-weight: bold;
+  font-size: 24px;
+}*/
+
+/*.bold {
+  font-weight: bold;
+}*/
+
+/* Break point */
+/* Medium and small windows are one column wide */
+/*@media (max-width: 1200px) {
+  .content-col-left, .content-col, .content-col-right {
+  width: 96%;
+  }
+}*/
+
+/*.image-in-text {
+  float: right;
+  padding: 20px;
+}
+
+.minitext {
+  font-size: 12px;
+}*/
+
+
+
+
+/* ABOUT ME PAGE */
+/*.bio {
+  margin: 2%;
+  margin-right: 10%;
+}
+
+.project-desc {
+  padding-right: 15%;
+  padding-left: 15%;
+}*/
+
+/*.visual-divider {
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project-title {
+  font-weight: bold;
+}*/
+
+/* nav ul {
+  list-style: none;
+}*/
+
+/*.extra-margins {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.text-as-navigation-box {
+  text-decoration: none;
+  background: gray;
+}
+*/
+
+
+
+
+/* New */
+
+
