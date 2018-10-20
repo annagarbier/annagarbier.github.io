@@ -11,6 +11,7 @@ body {
   margin-right: 30px;
   margin-top: 20px;
   height: 100%;
+  font-size: 12px;
 }
 /* ===== End general formatting ===== */
 
@@ -175,17 +176,25 @@ body {
 }
 
 .yellow {
+/*  border-left: 6px solid yellow;
+  padding-left: 5px;*/
+  margin-bottom: 20px;
+}
+
+.yellow img {
   border-left: 6px solid yellow;
+}
+
+.red {
+  border-left: 6px solid red;
   padding-left: 5px;
   margin-bottom: 20px;
-
 }
 
 .image-caption {
   margin-top: 0px;
   font-size: 12px;
-  text-align: right;
-  color: gray;
+  text-align: left;
 }
 
 
@@ -198,11 +207,22 @@ body {
   margin-bottom: 0px;
 }
 
+.content-title {
+  width: 100%;
+  float: left;
+}
+
 .content-col-image {
   display: flex;
   float: right;
   width: 75%;
   margin-bottom: 20px;
+}
+
+.content-col-image-title {
+  display: flex;
+  float: right;
+  width: 100%;
 }
 
 /*.content-col-text {
@@ -221,6 +241,16 @@ body {
   width: 100%;
 }
 
+.content-col-image-full-title-r {
+  width: 100%;
+  padding-left: 35px;
+}
+
+.content-col-image-full-title-l {
+  width: 100%;
+  padding-right: 35px;
+}
+
 .content-col-image-twothirds {
   width: 70%;
 }
@@ -229,6 +259,7 @@ body {
   width: 49%;
   float: left;
   margin-right: 1%;
+  position: relative;
 }
 
 .content-col-image-half-r {
@@ -269,7 +300,9 @@ body {
 .content-col-image-third-m img,
 .content-col-image-third-m video,
 .content-col-image-third-r img,
-.content-col-image-third-r video {
+.content-col-image-third-r video,
+.content-col-image-full-title-l img,
+.content-col-image-full-title-r img {
   width: 100%;
 }
 
@@ -278,11 +311,19 @@ body {
     width: 100%;
   }
 
+  .content-title {
+    width: 100%;
+  }
+
   .content-col {
     width: 100%;
   }
 
   .content-col-image {
+    width: 100%;
+  }
+
+  .content-col-image-title {
     width: 100%;
   }
 
@@ -302,6 +343,12 @@ body {
     width: 100%;
     float: left;
   }
+
+  .content-col-image-full-title-r,
+  .content-col-image-full-title-l {
+    padding: 0px;
+  }
+
 }
 
 .no-decoration {
@@ -325,173 +372,25 @@ body {
   height: 200px;
 }
 
-
-
-
-
-
-/* ============== OLD STUFF ============================ */
-
-
-
-
-/* HOME HEADER */
-/*.header {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
-  z-index: 100;
-  margin: 0px;
-  padding: 2%;
-}*/
-
-/*.header li {
-	float: left;
-	display: block;
-	text-align: left;
-	font-size: 20px;
-  padding-right: 5px;
-}*/
-
-/*#anna {
-  padding-right: 30px;
-}*/
-
-/*.header a {
-  text-decoration: none;
-  color: black;
+.title-half {
+  width: 50%;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
-.header a:hover {
-	text-decoration: underline;
-}*/
-
-/*.content-col-text p {
-  padding: 0px;
-  margin: 0px;
-  padding-bottom: 5px;
-  font-size: 16px;
-}*/
-
-/* CONTENT PAGES */
-/*.content-row > .content-col-left,
-.content-col-right,
-.content-col-full,
-.content-col {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}*/
-
-/* Project pages can be configured to have full or half-width
-  images/text by default. All are responsive to window size */
-
-/* Half-width content */
-/*.content-col-left, .content-col {
+.title-half-image {
+  width: 100%;
+  display: flex;
   float: left;
-  width: 47%;
-  padding-right: 1%;
-}*/
-
-/*.content-col-right {
-  float: right;
-  width: 47%;
-  padding-left: 1%;
-  padding-right: 2%;
 }
 
-.content-col-full {
-  float: left;
-  width: 96%;
-  padding-left: 2%;
-  padding-right: 2%;
-}*/
-
-/*.hacky-divider {
-  display: block;
-  line-height:0;
-  height: 0;
-  overflow: hidden;
-  width: 100%;
-}*/
-
-/*.content-col-left img,
-.content-col img,
-.content-col-right img,
-.content-col-full img {
-  width: 80%;
-}*/
-
-/*.content p.project-title {
-  font-weight: bold;
-  font-size: 24px;
-}*/
-
-/*.bold {
-  font-weight: bold;
-}*/
-
-/* Break point */
-/* Medium and small windows are one column wide */
-/*@media (max-width: 1200px) {
-  .content-col-left, .content-col, .content-col-right {
-  width: 96%;
+@media (max-width: 1000px) {
+  .title-half {
+    width:100%;
   }
-}*/
-
-/*.image-in-text {
-  float: right;
-  padding: 20px;
 }
 
-.minitext {
-  font-size: 12px;
-}*/
-
-
-
-
-/* ABOUT ME PAGE */
-/*.bio {
-  margin: 2%;
-  margin-right: 10%;
+a:hover {
+  opacity: .8;
 }
-
-.project-desc {
-  padding-right: 15%;
-  padding-left: 15%;
-}*/
-
-/*.visual-divider {
-  padding-right: 15%;
-  padding-left: 15%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.project-title {
-  font-weight: bold;
-}*/
-
-/* nav ul {
-  list-style: none;
-}*/
-
-/*.extra-margins {
-  margin-left: 12%;
-  margin-right: 12%;
-}
-
-.text-as-navigation-box {
-  text-decoration: none;
-  background: gray;
-}
-*/
-
-
-
-
-/* New */
-
-
