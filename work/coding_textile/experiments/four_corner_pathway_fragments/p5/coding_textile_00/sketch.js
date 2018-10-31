@@ -1,27 +1,21 @@
 /* Moving in a clockwise direction, connect each corner
  * of a square to a random point on an opposing edge.
- * 
- * Basic configuration
- *  canvasWidth: width of canvas in pixels
- *  canvasHeight: height of canvas in pixels
- *  numColumns: number of blocks drawn on each row
- *  rotateAngle: rotate the squares by a degree
- *  framesPerSecond: number of lines drawn per second
- *  squareStrokeColor: color of square (0 for black; 255 for white)
- *  connectorStrokeColor: color of connectors (0 for black; 255 for white)
- *  backgroundColor: color of background (0 for black; 255 for white)
+ *
+ * Use three sliders to change the number of columns,
+ * rotation angle, and draw speed (i.e. frame rate) for
+ * the sketch.
  *  
  * Anna Garbier
  * 2018-10-30
  */
 
 // Basic anvas and program configuration
-const canvasWidth = 750;
+const canvasWidth = 500;
 const canvasHeight = 500;
-const numCols = 5;
 
-const rotateAngle = 45;
-const framesPerSecond = 5;
+let numCols = 1;
+let rotateAngle = 45;
+let framesPerSecond = 50;
 
 const squareStrokeColor = 0;
 const connectorStrokeColor = 0;
@@ -29,7 +23,7 @@ const backgroundColor = 255;
 
 // Size of square is determined by canvas size
 // and the number of columns
-const squareDiagonal = canvasWidth / numCols;
+let squareDiagonal = canvasWidth / numCols;
 let squareWidth;
 let squareWidthHalved;
 let squareDiagonalHalved;
@@ -42,9 +36,9 @@ let cornerCounter = 0;
 let colCounter = 0;
 let rowCounter = 0;
 
-
 function setup() {
-	createCanvas(canvasWidth, canvasHeight);
+	var canvas = createCanvas(canvasWidth, canvasHeight);
+	canvas.parent('sketch-holder');
 	background(backgroundColor);
 	noFill();
 	angleMode(DEGREES);
@@ -56,13 +50,24 @@ function setup() {
 	squareWidthHalved = squareWidth / 2;
 	squareDiagonalHalved = squareDiagonal / 2;
 	numRows = Math.floor(canvasHeight / squareDiagonal);
+
+	// Make sliders
+	createP("Number of columns (1 to 20)");
+	numColsSlider = createSlider(1, 20, 1);
+	createP("Tilt angle (0 deg. to 45 deg.)");
+	tiltAngleSlider = createSlider(0, 45, 45);
+	createP("Frame rate (1 to 100 frames per sec.)");
+	frameRateSlider = createSlider(1, 100, 10);
+
+	createP("");
+	var button = createButton("Refresh sketch");
+	button.mousePressed(refreshSketch);
+
 }
 
 function draw() {
 	if (rowCounter < numRows) {
 		drawRow();
-	} else {
-		console.log("Program complete.");
 	}
 }
 
@@ -138,4 +143,20 @@ function drawRow() {
 		rowCounter++;
 		colCounter = 0;
 	}
+}
+
+function refreshSketch() {
+	background(backgroundColor);
+	frameRate(frameRateSlider.value());
+	numCols = numColsSlider.value();
+	rotateAngle = tiltAngleSlider.value();
+
+	squareDiagonal = canvasWidth / numCols;
+	squareWidth = squareDiagonal / sqrt(2);
+	squareWidthHalved = squareWidth / 2;
+	squareDiagonalHalved = squareDiagonal / 2;
+	numRows = Math.floor(canvasHeight / squareDiagonal);
+	cornerCounter = 0;
+	colCounter = 0;
+	rowCounter = 0;
 }
