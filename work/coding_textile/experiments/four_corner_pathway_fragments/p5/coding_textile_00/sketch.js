@@ -63,6 +63,11 @@ function setup() {
 	var button = createButton("Refresh sketch");
 	button.mousePressed(refreshSketch);
 
+	createP("<hr>");
+	createP("Anna Garbier, 2018-10-30")
+
+
+
 }
 
 function draw() {
