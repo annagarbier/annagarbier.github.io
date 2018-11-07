@@ -1,5 +1,5 @@
 ## Summary
-`GET` NASA's Astronomy Picture of the Day ("ASOP"), and use it as a drawing canvas in your web browser.
+`GET` NASA's Astronomy Picture of the Day, and use it as a drawing canvas in your web browser.
 
 ## Demo
 Screen recording: https://annagarbier.github.io/work/courses/2018/fall/creativity_and_computation/p5/cc_lab_javascript_api/demo/index.html
@@ -7,7 +7,7 @@ Screen recording: https://annagarbier.github.io/work/courses/2018/fall/creativit
 Note that a CORS Chrome extension is enabled. Disabling it violates CORS policy...will need to solve this another day.
 
 ## Details
-* Uses p5.js to `GET` the Image of the Day from NASA's API (https://api.nasa.gov/index.html).
+* Uses p5.js to `GET` the Image of the Day from NASA's APOD API (https://api.nasa.gov/api.html#apod).
 * Displays the Picture of the Day in an HTML div, scaled to the screen width.
 * `mousePressed()` allows user to draw over the image.
 * `refreshSketch()` function allows user to refresh the sketch without re-loading everything.
