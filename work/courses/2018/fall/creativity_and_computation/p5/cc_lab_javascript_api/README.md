@@ -1,5 +1,5 @@
 ## Summary
-Draw over NASA's Astronomy Picture of the Day ("ASOP") in your web browser.
+`GET` NASA's Astronomy Picture of the Day ("ASOP"), and use it as a drawing canvas in your web browser.
 
 ## Demo
 Screen recording: https://annagarbier.github.io/work/courses/2018/fall/creativity_and_computation/p5/cc_lab_javascript_api/demo/index.html
