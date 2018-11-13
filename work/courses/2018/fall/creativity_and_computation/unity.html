@@ -1,0 +1,75 @@
+<!-- Creativity and Computation -->
+<!-- Courses 2018 Fall -->
+<!-- Anna Garbier -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anna Garbier</title>
+	<link href="../../../../../css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+	<div>
+		<p class="title">ANNA GARBIER</p>
+		<nav>
+			<ul class="navigation">
+				<li><a href="../../../../../index.html">Home /</a>
+				<li><a href="./index.html">Creativity and Computation /</a></li>
+				<li class="current-page">Unity</li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="content">
+		<div class="content-col-text" id="hw_01">
+	        <p class="yellow"><b>Unity HW 01</b><br><br>
+	        Using our introductory class material and Unity documentation, I created a set of floating cubes that spin via input from the Inspector. For every full rotation that a cube makes, the <a href="./resources/unity/hw_00/Spin.cs" target="_blank"</a>C# Script</a> also changes the cube's material color.</p>
+	    </div>
+
+	    <div class="content-col-image">
+	    	<div class="content-col-image-full">
+		        <video controls>
+					<source src="./resources/unity/hw_00/cc_lab_unity_hw_00_00.mov" type="video/mp4">
+	  				Your browser does not support HTML5 video.
+				</video>
+				<p class="image-caption">One cube object hovers above a plane object. Both are given material colors via the Unity GUI during initial setup. The cube object is then connected to a simple C# script called <b>Spin</b>. In its first iteration, the script causes the cube to spin at a default speed of 10 degrees per second. This speed is held in a variable, so we can use the Inspector to change the speed.</p>
+			</div>
+		</div>
+
+		<div class="content-col-image">
+	    	<div class="content-col-image-full">
+		        <video controls>
+					<source src="./resources/unity/hw_00/cc_lab_unity_hw_00_01.mov" type="video/mp4">
+	  				Your browser does not support HTML5 video.
+				</video>
+				<p class="image-caption">In its second iteration, the <b>Spin</b> script allows us to change the cube's spinning speed in the Inspector using a slider that's constrained to 0 - 500 degrees per second. The script also changes the color of the cube's material after every full rotation of the cube.</p>
+			</div>
+		</div>
+
+		<div class="content-col-image">
+	    	<div class="content-col-image-full">
+		        <video controls>
+					<source src="./resources/unity/hw_00/cc_lab_unity_hw_00_03.mov" type="video/mp4">
+	  				Your browser does not support HTML5 video.
+				</video>
+				<p class="image-caption">The same <b>Spin</b> script is now added to eight additional cube objects. Each cube is now independently configurable in the Inspector.</p>
+			</div>
+		</div>
+
+		<div class="content-col-image">
+	    	<div class="content-col-image-full">
+				<p class="image-caption">Resources used:
+					<ul>
+						<li><a href="https://unity3d.com/learn/tutorials/topics/scripting/spinning-cube" target="_blank">https://unity3d.com/learn/tutorials/topics/scripting/spinning-cube</a></li>
+						<li><a href="https://docs.unity3d.com/ScriptReference/Transform.Rotate.html" target="_blank">https://docs.unity3d.com/ScriptReference/Transform.Rotate.html</a></li>
+						<li><a href="https://docs.unity3d.com/ScriptReference/Material.SetColor.html" target="_blank">https://docs.unity3d.com/ScriptReference/Material.SetColor.html</a></li>
+						
+					</ul>
+				</p>
+			</div>
+		</div>
+    </div>
+
+</body>
+</html>
