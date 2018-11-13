@@ -42,8 +42,7 @@ public class Spin : MonoBehaviour {
         // After every full rotation, change the object's
         // material color.
         degreeCounter += speed * Time.deltaTime;
-        if (degreeCounter > 360)
-        {
+        if (degreeCounter > 360) {
             degreeCounter = 0;
             ChangeColor();
         }
