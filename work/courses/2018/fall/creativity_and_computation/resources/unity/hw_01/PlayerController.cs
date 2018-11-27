@@ -1,9 +1,12 @@
-/* Controlls the player for Unity's "Roll-A-Ball" tutorial.
+/* Controls the player for Unity's "Roll-A-Ball" tutorial.
+ *
  * Also adds some custom elements for:
  * - counting down time from 30s
  * - displaying countdown time
  * - modifying objects and scenes when countdown hits 0
  *   or when player collects all tokens.
+ *
+ * Anna Garbier, MFADT 2018
  */
 
 using System.Collections;
