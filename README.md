@@ -1,3 +1,3 @@
 Thanks for visiting!
 
-Please find an updated portfolio at: annagarbier.github.io/portfolio
+Please find my updated portfolio at: [annagarbier.github.io/portfolio](annagarbier.github.io/portfolio)
