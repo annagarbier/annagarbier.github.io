@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anna Garbier</title>
+	<link href="../../../../../css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+	<nav>
+		<ul>
+			<li id="title"><a>Anna Garbier</a></li>
+			<li style="float:right"><a href="../../../../../about.html">About</a></li>
+			<li style="float:right"><a class="active" href="../../../../../index.html">Work</a></li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<div class="summary">
+			<p span class="project-title">Light-activated sound</p>
+			<p>
+				A photoresistor picks up ambient light signals and sends them to Arduino. Depending on the brightness of the light, a Processing sketch plays or pauses audio. For exsample, turn on a room's lights, and audio plays. Turn off the lights, and audio pauses.
+				<br><br>Hardware: Photoresistor (input), breadboard, computer and speakers.
+				<br>Code: <a href="./resources/arduino_hw_04.pde" target="_blank">arduino_hw_04.pde</a>.
+			</p>
+		</div>
+
+		<img src="./resources/arduino_hw_04_00.jpg">
+	    <p class="image-caption">Hardware setup includes a single photoresistor as analog input for Arduino</p>
+
+	    <video controls>
+			<source src="./resources/arduino_hw_04_04.m4v" type="video/mp4">
+	  		Your browser does not support HTML5 video.
+		</video>
+		<p class="image-caption">Hand's shadow shows the photoresistor in action</p>
+
+		<div class="half-width-l">
+			<video controls>
+				<source src="./resources/arduino_hw_04_03.m4v" type="video/mp4">
+	  			Your browser does not support HTML5 video.
+			</video>
+			<p class="image-caption">Desk light as an audio controller</p>
+		</div>
+		<div class="half-width-r">
+			<video controls>
+				<source src="./resources/arduino_hw_04_06.m4v" type="video/mp4">
+  				Your browser does not support HTML5 video.
+			</video>
+			<p class="image-caption">Overhead light as audio controller</p>
+		</div>
+
+	</div>
+</body>
+</html>
