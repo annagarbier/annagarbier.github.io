@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anna Garbier</title>
+	<link href="../../../../../css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+	<nav>
+		<ul>
+			<li id="title"><a>Anna Garbier</a></li>
+			<li style="float:right"><a href="../../../../../about.html">About</a></li>
+			<li style="float:right"><a class="active" href="../../../../../index.html">Work</a></li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<div class="summary">
+			<p>
+				<b>Cardtops</b> is a set of Augmented Reality mini-games built on top of public transportation cards. This page documents the early development of the games, and their future direction.
+	         </p>
+		</div>
+
+		<img src="./resources/unity/cardtops/cards.png">
+		<p class="image-caption">Why public transportation cards as AR targets? 1) widely accessible 2) situated as part of a distinct local culture and experience 3) available in times of boredom 4) technically easy for machine to recognize which allows for more freedom when deisgning interactions</p>
+
+		<div class="half-width-l">
+			<img src="./resources/unity/cardtops/cc_final_card_play_00.gif">
+		</div>
+		<div class="half-width-r">
+			<img src="./resources/unity/cardtops/cc_final_card_play_01.gif">
+		</div>
+		<div class="half-width-l">
+			<img src="./resources/unity/cardtops/cc_final_card_play_03.gif">
+		</div>
+		<div class="half-width-r">
+			<img src="./resources/unity/cardtops/cc_final_card_play_02.gif">
+		</div>
+		<p class="image-caption">Playing with card interactions: tapping, flipping, bending, and covering the AR target. Thinking about user considerations: e.g. Should it be a one-handed interaction? How much space will they have to move?. As well as technical considerations: e.g. What kind of target interaction can Unity & Vuforia reliably understand?</p>
+
+		<img src="./resources/unity/cardtops/cc_final_card_play_04.gif">
+		<p class="image-caption">Ultimately chose to use the card as a platform that exists in 3d space. As the user moves this platform, a mini game plays out accordingly.</p>
+
+		<img src="./resources/unity/cardtops/cc_final_maze_00.gif">
+		<p class="image-caption">Designing the game, which will sit atop the card target. The game is designed to be short so that it can be played while waiting for a train.</p>
+
+		<img src="./resources/unity/cardtops/maze_nyc.gif">
+		<p class="image-caption">Testing the maze game on a NYC Metro card. (See C# script <a href="https://github.com/annagarbier/annagarbier.github.io/blob/master/portfolio/work/courses/2018/fall/creativity_and_computation/resources/cardtops/nycBallRoll.cs" target="_blank">here</a>.)</p>
+
+		<img src="./resources/unity/cardtops/maze_sf_small.gif">
+		<p class="image-caption">Exploring the future of these games as not just one standalone game, but a system of games. Here, we have a new card, which triggers a new game. (See C# scripts <a href="https://github.com/annagarbier/annagarbier.github.io/blob/master/portfolio/work/courses/2018/fall/creativity_and_computation/resources/cardtops/sfBallRoll.cs">here</a> and <a href="https://github.com/annagarbier/annagarbier.github.io/blob/master/portfolio/work/courses/2018/fall/creativity_and_computation/resources/cardtops/sfCubeSpin.cs" target="_blank">here</a>.)</p>
+	</div>
+	<div class="summary">
+		<p>
+			<b>Future Iterations</b><br>
+			I'd like to build a "system" of mini-games that plays off of transportation as a system. Maybe these games engage with local attractions/businesses, or maybe they lead to collectable "tokens" as you use different cities' transportation systems. 
+	    </p>
+	</div>
+
+</body>
+</html>
