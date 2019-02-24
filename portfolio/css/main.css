@@ -1,0 +1,101 @@
+/* prod */
+body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #232528;
+    width: 90%;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+/* header & navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a, #name {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #232528;
+}
+
+nav a:visited {
+    color: #232528;
+}
+
+
+/* section */
+section {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+}
+
+.gallery-col-full {
+    float: left;
+    width: 100%; /* two cols of images */
+    padding: 5px;
+}
+
+.gallery-col-half {
+    float: left;
+    width: 48%; /* two cols of images */
+    padding: 5px;
+}
+
+.gallery-col-third {
+    float: left;
+    width: 32%; /* three cols of images */
+    padding: 5px;
+}
+
+.gallery-col-fourth {
+    float: left;
+    width: 23%; /* two cols of images */
+    padding: 5px;
+}
+
+.gallery-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+section img, .img-text, video {
+    width: 100%;
+    display: block;
+}
+
+section .img-text {
+    font-size: 14px;
+    margin-top: 0px;
+}
