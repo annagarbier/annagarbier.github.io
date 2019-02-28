@@ -11,7 +11,7 @@ body {
 
 h1 {
     font-size: 30px;
-    font-weight: normal;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ section {
 
 .gallery-col-full {
     float: left;
-    width: 100%; /* two cols of images */
+    width: 96%; /* two cols of images */
     padding: 5px;
 }
 
@@ -97,4 +97,14 @@ section img, .img-text, video {
 section .img-text {
     font-size: 14px;
     margin-top: 0px;
+}
+
+section .text-content {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+section .text-content .span-bold {
+    font-weight: bold;
 }
