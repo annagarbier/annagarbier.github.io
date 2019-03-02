@@ -1,0 +1,139 @@
+/* prod */
+body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #232528;
+    width: 90%;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 30px;
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 25px;
+    /* font-weight: normal; */
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+
+/* header & navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a, #name {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #232528;
+}
+
+nav a:visited {
+    color: #232528;
+}
+
+nav .subtitle {
+    color: gray;
+    margin-top: 0px;
+}
+
+
+/* section */
+section {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+}
+
+.gallery-col-full {
+    float: left;
+    width: 96%; /* two cols of images */
+    padding: 5px;
+}
+
+.gallery-col-half {
+    float: left;
+    width: 48%; /* two cols of images */
+    padding: 5px;
+}
+
+.gallery-col-third {
+    float: left;
+    width: 32%; /* three cols of images */
+    padding: 5px;
+}
+
+.gallery-col-fourth {
+    float: left;
+    width: 23%; /* two cols of images */
+    padding: 5px;
+}
+
+.gallery-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+section img, .img-text, video {
+    width: 100%;
+    display: block;
+}
+
+section .img-text {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+section .text-content {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+section .text-content {
+    margin-top: 0px;
+}
+
+
+/* table */
+.syllabus {
+    width: 100%;
+    margin: auto;
+    background: #edeeef;
+    font-family: "Courier";
+    font-size: 14px;
+    padding: 50px;
+}
+
+th {
+    border-bottom: .5px solid gray;
+}
+
+.firstcol {
+    border-right: .5px solid gray;
+}
+
+td, th {
+    padding: 10px;
+}
