@@ -108,3 +108,7 @@ section .text-content {
 section .text-content .span-bold {
     font-weight: bold;
 }
+
+.credits {
+    color: grey;
+}
