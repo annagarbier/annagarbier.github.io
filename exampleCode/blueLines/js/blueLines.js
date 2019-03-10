@@ -3,6 +3,13 @@ const drawing_border = 50;
 function setup() {
     createCanvas(windowWidth, windowHeight);
     colorMode(HSB, 1);
+
+    let info = createP("Constrained Randomness");
+    info.position(drawing_border, windowHeight - 50);
+}
+
+function draw() {
+    frameRate(.55);
     background(.1, .001, .95);
 
     let y_start = drawing_border;
@@ -13,9 +20,6 @@ function setup() {
         y_start = y_end;
         y_end += random(50, 300);
     }
-
-    let info = createP("Exploring subtle randomness. Refresh page for new image.");
-    info.position(drawing_border, windowHeight - 50);
 }
 
 function drawLines(y_start, y_end) {
