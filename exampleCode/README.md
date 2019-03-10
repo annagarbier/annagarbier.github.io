@@ -10,6 +10,8 @@ Sol LeWitt-style instructions not for drawings, but for language generation.
 
 ![Image](https://github.com/annagarbier/exampleCode/blob/master/solLewitt/solLewittImg.png)
 
+> **[Go to live page](https://annagarbier.github.io/exampleCode/solLewitt/)**
+
 ## [./nlpDraw](https://github.com/annagarbier/exampleCode/edit/master/nlpDraw)
 
 A lightweight prototype of a language-based drawing tool. This javascript
@@ -24,8 +26,12 @@ visuals? How do we talk to computers about visuals?*
 
 ![Image](https://github.com/annagarbier/exampleCode/blob/master/nlpDraw/nlpDrawImg.png)
 
+> **[Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)**
+
 ## [./blueLines](https://github.com/annagarbier/exampleCode/edit/master/blueLines)
 
 A super-short study on the aesthetics of controlled randomness.
 
 ![Image](https://github.com/annagarbier/exampleCode/blob/master/blueLines/blueLinesImg.png)
+
+> **[Go to live page](https://annagarbier.github.io/exampleCode/blueLines/)**
