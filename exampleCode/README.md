@@ -8,11 +8,13 @@ Sol LeWitt [wrote instructions](https://www.google.com/search?q=sol+lewitt+wall+
 for generating drawings. **If Sol LeWitt Wrote Ditties** generates
 Sol LeWitt-style instructions not for drawings, but for language generation.
 
-![Image](https://github.com/annagarbier/exampleCode/blob/master/solLewitt/solLewittImg.png)
-
 * **[Go to live page](https://annagarbier.github.io/exampleCode/solLewitt/)**
 
+![Image](https://github.com/annagarbier/exampleCode/blob/master/solLewitt/solLewittImg.png)
+
 ## [./nlpDraw](https://github.com/annagarbier/exampleCode/edit/master/nlpDraw)
+
+* **[Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)**
 
 A lightweight prototype of a language-based drawing tool. This javascript
 interface accepts natural language text like "draw a big blue square in
@@ -26,12 +28,10 @@ visuals? How do we talk to computers about visuals?*
 
 ![Image](https://github.com/annagarbier/exampleCode/blob/master/nlpDraw/nlpDrawImg.png)
 
-* **[Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)**
-
 ## [./blueLines](https://github.com/annagarbier/exampleCode/edit/master/blueLines)
 
 A super-short study on the aesthetics of controlled randomness.
 
-![Image](https://github.com/annagarbier/exampleCode/blob/master/blueLines/blueLinesImg.png)
-
 * **[Go to live page](https://annagarbier.github.io/exampleCode/blueLines/)**
+
+![Image](https://github.com/annagarbier/exampleCode/blob/master/blueLines/blueLinesImg.png)
