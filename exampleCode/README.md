@@ -6,7 +6,7 @@ Repository of example code, with short textual and visual descriptions of each.
 
 Sol LeWitt [wrote instructions](https://www.google.com/search?q=sol+lewitt+wall+drawing+instructions&rlz=1C5CHFA_enUS807US807&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjk-Py8h_bgAhVCZN8KHZKrBV4Q_AUIDigB&biw=1440&bih=766)
 for generating drawings. **If Sol LeWitt Wrote Ditties** generates
-Sol LeWitt-style instructions not for drawings, but for language generation. (**[Go to live page](https://annagarbier.github.io/exampleCode/solLewitt/).**)
+Sol LeWitt-style instructions not for drawings, but for language generation. (**[Go to live page](https://annagarbier.github.io/exampleCode/solLewitt/)**)
 
 ![Image](https://annagarbier.github.io/exampleCode/solLewitt/solLewittImg.png)
 
