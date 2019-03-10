@@ -8,7 +8,7 @@ Sol LeWitt [wrote instructions](https://www.google.com/search?q=sol+lewitt+wall+
 for generating drawings. **If Sol LeWitt Wrote Ditties** generates
 Sol LeWitt-style instructions not for drawings, but for language generation. (**[Go to live page](https://annagarbier.github.io/exampleCode/solLewitt/).**)
 
-![Image](https://github.com/annagarbier/exampleCode/blob/master/solLewitt/solLewittImg.png)
+![Image](https://annagarbier.github.io/exampleCode/solLewitt/solLewittImg.png)
 
 ## [./nlpDraw](https://github.com/annagarbier/exampleCode/edit/master/nlpDraw)
 
@@ -23,10 +23,10 @@ relationship between linguistic and visual communication:
 visuals? How do we talk to computers about visuals?
 (**[Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)**)
 
-![Image](https://github.com/annagarbier/exampleCode/blob/master/nlpDraw/nlpDrawImg.png)
+![Image](https://annagarbier.github.io/exampleCode/solLewitt/nlpDrawImg.png)
 
 ## [./blueLines](https://github.com/annagarbier/exampleCode/edit/master/blueLines)
 
 A super-short study on the aesthetics of controlled randomness. (**[Go to live page](https://annagarbier.github.io/exampleCode/blueLines/)**)
 
-![Image](https://github.com/annagarbier/exampleCode/blob/master/blueLines/blueLinesImg.png)
+![Image](https://annagarbier.github.io/exampleCode/solLewitt/blueLinesImg.png)
