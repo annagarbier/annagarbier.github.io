@@ -1,4 +1,4 @@
-# [Example Code](https://github.com/annagarbier/annagarbier.github.io/exampleCode)
+# [Example Code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode)
 
 *Author: @annagarbier*     
 *Last update: 2019-03-09*
