@@ -1,6 +1,6 @@
 # exampleCode
 
-Repository of example code, with short descriptions and example output images.
+Repository of example code, with short textual and visual descriptions of each.
 
 ## [./solLewitt](https://github.com/annagarbier/exampleCode/edit/master/solLewitt)
 
