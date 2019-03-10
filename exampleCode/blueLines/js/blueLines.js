@@ -1,3 +1,6 @@
+// Create an image using tightly controlled randomness.
+// Author: Anna Garbier (annagarbier)
+
 const drawing_border = 50;
 
 function setup() {
