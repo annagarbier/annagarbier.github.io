@@ -23,10 +23,10 @@ relationship between linguistic and visual communication:
 visuals? How do we talk to computers about visuals?
 (**[Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)**)
 
-![Image](https://annagarbier.github.io/exampleCode/solLewitt/nlpDrawImg.png)
+![Image](https://annagarbier.github.io/exampleCode/nlpDrawImg/nlpDrawImg.png)
 
 ## [./blueLines](https://github.com/annagarbier/exampleCode/edit/master/blueLines)
 
 A super-short study on the aesthetics of controlled randomness. (**[Go to live page](https://annagarbier.github.io/exampleCode/blueLines/)**)
 
-![Image](https://annagarbier.github.io/exampleCode/solLewitt/blueLinesImg.png)
+![Image](https://annagarbier.github.io/exampleCode/blueLines/blueLinesImg.png)
