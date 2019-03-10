@@ -5,14 +5,6 @@
 
 Rerpository of example projects, with short textual and visual descriptions of each.
 
-## [./solLewitt](https://github.com/annagarbier/exampleCode/edit/master/solLewitt)
-
-Sol LeWitt [wrote instructions](https://www.google.com/search?q=sol+lewitt+wall+drawing+instructions&rlz=1C5CHFA_enUS807US807&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjk-Py8h_bgAhVCZN8KHZKrBV4Q_AUIDigB&biw=1440&bih=766)
-for generating drawings. This project, **If Sol LeWitt Wrote Ditties**, generates
-Sol LeWitt-style instructions for language generation. (**[Go to live page](https://annagarbier.github.io/exampleCode/solLewitt/)**)
-
-![Image](https://annagarbier.github.io/exampleCode/solLewitt/solLewittImg.png)
-
 ## [./nlpDraw](https://github.com/annagarbier/exampleCode/edit/master/nlpDraw)
 
 A lightweight prototype of a language-based drawing tool. This JavaScript
@@ -27,6 +19,14 @@ visuals? How do we talk to computers about visuals?
 (**[Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)**)
 
 ![Image](https://annagarbier.github.io/exampleCode/nlpDraw/nlpDrawImg.png)
+
+## [./solLewitt](https://github.com/annagarbier/exampleCode/edit/master/solLewitt)
+
+Sol LeWitt [wrote instructions](https://www.google.com/search?q=sol+lewitt+wall+drawing+instructions&rlz=1C5CHFA_enUS807US807&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjk-Py8h_bgAhVCZN8KHZKrBV4Q_AUIDigB&biw=1440&bih=766)
+for generating drawings. This project, **If Sol LeWitt Wrote Ditties**, generates
+Sol LeWitt-style instructions for language generation. (**[Go to live page](https://annagarbier.github.io/exampleCode/solLewitt/)**)
+
+![Image](https://annagarbier.github.io/exampleCode/solLewitt/solLewittImg.png)
 
 ## [./blueLines](https://github.com/annagarbier/exampleCode/edit/master/blueLines)
 
