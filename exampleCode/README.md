@@ -3,7 +3,7 @@
 *Author: @annagarbier*     
 *Last update: 2019-03-09*
 
-*Rerpository example code, with short textual and visual descriptions of each.*
+Rerpository example code, with short textual and visual descriptions of each.
 
 ## [./solLewitt](https://github.com/annagarbier/exampleCode/edit/master/solLewitt)
 
