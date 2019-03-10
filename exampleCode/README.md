@@ -1,6 +1,6 @@
 # [Example Code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode)
 
-*Author: @annagarbier*     
+*Author: annagarbier*     
 *Last update: 2019-03-09*
 
 Rerpository example code, with short textual and visual descriptions of each.
