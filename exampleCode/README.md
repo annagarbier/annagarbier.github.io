@@ -23,7 +23,7 @@ relationship between linguistic and visual communication:
 visuals? How do we talk to computers about visuals?
 (**[Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)**)
 
-![Image](https://annagarbier.github.io/exampleCode/nlpDrawImg/nlpDrawImg.png)
+![Image](https://annagarbier.github.io/exampleCode/nlpDraw/nlpDrawImg.png)
 
 ## [./blueLines](https://github.com/annagarbier/exampleCode/edit/master/blueLines)
 
