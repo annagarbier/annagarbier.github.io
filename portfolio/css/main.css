@@ -63,24 +63,28 @@ section {
     float: left;
     width: 96%; /* two cols of images */
     padding: 5px;
+    padding-bottom: 40px;
 }
 
 .gallery-col-half {
     float: left;
     width: 48%; /* two cols of images */
     padding: 5px;
+    padding-bottom: 40px;
 }
 
 .gallery-col-third {
     float: left;
     width: 32%; /* three cols of images */
     padding: 5px;
+    padding-bottom: 40px;
 }
 
 .gallery-col-fourth {
     float: left;
     width: 23%; /* two cols of images */
     padding: 5px;
+    padding-bottom: 40px;
 }
 
 .gallery-row::after {
