@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Javascript HW6 - Asynchronous Events</title>
+  <meta name="JavaScript Sp19 Midterms" content="JavaScript Sp19">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <header></header>
+
+  <section>
+    <div id="content">
+        <h1>
+          Naive Thesaurus
+        </h1>
+        <textarea id="text">Hello friend...</textarea>
+        <button id="getSyns">Synonym-ize!</button>
+        <!-- TODO: add antonym option -->
+        <!-- <button id="getAnts">Antonym-ize!</button>  -->
+        <div id="error"></div>
+    </div>
+    <div id="info">
+        <h1>
+          Info
+        </h1>
+        <p>
+          <b>What is this?</b><br><br>
+          Naive Thesaurus exposes the importance of context to the meaning
+          of words.<br><br>
+
+          When "Synonym-ize" is pressed, each
+          word in the text box is replaced with a completely random synonym from the
+          Merriam-Webster Thesaurus (if available).
+        </p>
+        <p>
+          <b>How does it work?</b><br><br>
+          This project uses the
+          <a href="https://dictionaryapi.com/products/api-collegiate-thesaurus" target="_blank">
+          Merriam Webster Thesaurus API</a> to do on-the-fly synonym lookup and replacements.
+          Replacements may be recursive ad infinitum.
+        </p>
+    </div>
+    
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
