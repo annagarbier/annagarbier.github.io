@@ -53,6 +53,12 @@ function getSyn(wordIndex) {
                         // and display the replacement immediately
                         output[wordIndex] = response.syns[randSynGroupIndex][randSynIndex];
                         document.getElementById('text').value = output.join(' ');
+
+
+                        let node = document.createElement("LI");                 // Create a <li> node
+                        let textnode = document.createTextNode(`${response.id} was replaced with ${output[wordIndex]}\n`);         // Create a text node
+                        node.appendChild(textnode);                              // Append the text to <li>
+                        document.getElementById('log').appendChild(node);
                     }
                 }
             } else {
