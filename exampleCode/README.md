@@ -20,6 +20,16 @@ visuals? How do we talk to computers about visuals?
 
 ![Image](https://annagarbier.github.io/exampleCode/nlpDraw/nlpDrawImg.png)
 
+## [./naiveThesaurus](https://github.com/annagarbier/exampleCode/edit/master/naiveThesaurus)
+
+A recursively naive thesaurus. When "Synonym-ize" or "Antonym-ize" is
+pressed, each word in the text box is replaced with a random synonym
+or antonym from the [Merriam-Webster Thesaurus](https://www.dictionaryapi.com/products/api-collegiate-thesaurus),
+if one is available.
+(**[Go to live page](https://annagarbier.github.io/exampleCode/naiveThesaurus/)**)
+
+![Image](https://annagarbier.github.io/exampleCode/naiveThesaurus/naiveThesaurus.png)
+
 ## [./solLewitt](https://github.com/annagarbier/exampleCode/edit/master/solLewitt)
 
 Sol LeWitt [wrote instructions](https://www.google.com/search?q=sol+lewitt+wall+drawing+instructions&rlz=1C5CHFA_enUS807US807&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjk-Py8h_bgAhVCZN8KHZKrBV4Q_AUIDigB&biw=1440&bih=766)
