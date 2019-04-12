@@ -1,0 +1,194 @@
+body {
+/*  padding: 10px;*/
+  font-family: "Courier";
+  background-color: white;
+  margin: 30px;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+p, li, #supermenu {
+	font-size: 14px;
+	padding-bottom: 4px;
+}
+
+/* Navigation is a fixed, scrollable bar on the left */
+#nav {
+    position: fixed;
+    width: 275px;
+    overflow: scroll;
+    top: 30px;
+    bottom: 0;
+/*    margin-left: 10px;*/
+    padding-right: 20px;
+/*    border-right: 1px solid black;*/
+}
+
+/*#nav-two {
+    position: fixed;
+    width: 20%;
+    min-width: 200px;
+    overflow: scroll;
+    top: 0;
+    bottom: 0;
+    margin-left: 285px;
+    padding-left: 10px;
+}*/
+
+#content {
+/*	position: fixed;*/
+    display: block;
+    width: auto;
+    padding-left: 295px;
+    height: 100%;
+    overflow: scroll;
+    top: 0;
+    bottom: 0 ;
+/*    margin-right: 10px;*/
+/*    background-color: rgba(46, 134, 193, .5);*/
+}
+
+#title-container {
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+
+div.nav li/*,
+div.nav-two li */{
+	list-style: none;
+}
+
+ul {
+	list-style-type:none;
+	padding:0px;
+    margin:0px;
+}
+
+/* Submenu logic for individual sketches */
+.submenu {
+	padding-left: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited, a:link {
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+    text-decoration-color: rgba(46, 134, 193, .9);
+}
+
+#current-page {
+    background-color: rgba(46, 134, 193, .5);
+    border-radius: 3px;
+}
+
+#sketch-container {
+    display: block;
+    position: relative;
+    max-width: 60%;
+/*    max-height: 80%;*/
+/*    height: 100%;*/
+/*    width: 750px;
+    height: 750px;*/
+    margin: auto;
+/*    padding: 5px;*/
+/*    border: 1px solid red;*/
+    margin-top: 30px;
+}
+
+#controls-container {
+	width: 100%;
+	height: auto;
+}
+
+#controls-container p {
+    padding: 0px;
+}
+
+button {
+    font-family: "Courier";
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 195, 0, .5);
+/*    border: 1px solid #d3d3d3;
+    background-color: #d3d3d3;*/
+}
+
+button:hover {
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 195, 0, 1);
+}
+
+button:focus {
+    outline: none;
+}
+
+
+.vertical-spacer-div {
+    height: 40px;
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 98%;
+    height: 5px;
+    border-radius: 2px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 15%;
+    background: rgb(199, 0, 57);
+    cursor: pointer;
+}
+
+.inputbox {
+    width: 750px;
+    outline: none;
+}
+
+#myCanvas {
+    width: 100%;
+    height: 100%;
+}
+
+textarea, #response {
+    width: 100%;
+    height: 100px;
+    font-family: "Courier New";
+    font-size: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+textarea:focus {
+    outline: none;
+}
