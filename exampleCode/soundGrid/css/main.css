@@ -3,23 +3,25 @@ body {
   background-color: white;
   max-width: 500px;
   margin: auto;
+  font-size: 14px;
+  text-align: center;
 }
 
 #sketch {
     display: block;
     position: relative;
     min-width: 500px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #buttons {
     display: block;
-    min-width: 520px;
 	height: auto;
 }
 
 #buttons p {
     padding: 0px;
+    margin-top: 0px;
 }
 
 button {
