@@ -1,0 +1,45 @@
+body {
+  font-family: "Courier";
+  background-color: white;
+  max-width: 500px;
+  margin: auto;
+}
+
+#sketch {
+    display: block;
+    position: relative;
+    min-width: 500px;
+    margin-top: 30px;
+}
+
+#buttons {
+    display: block;
+    min-width: 520px;
+	height: auto;
+}
+
+#buttons p {
+    padding: 0px;
+}
+
+button {
+    font-family: "Courier";
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 195, 0, .5);
+}
+
+button:hover {
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 195, 0, 1);
+}
+
+button:focus {
+    outline: none;
+}
+
+button {
+    margin: 11px;
+}
