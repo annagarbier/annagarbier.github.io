@@ -8,7 +8,7 @@
   },
   "author": "annagarbier",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "d3": "^4.2.2"
   }
 }
