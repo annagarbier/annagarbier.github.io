@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background: rgb(239,219,197,1);
+    color: rgb(40, 40, 40);
+}
+
+#chart-div {
+    float: left;
+    width: 75%;
+}
+
+#info {
+    float: left;
+    width: 20%;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+#info-txt, #color-txt {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#page-info {
+    display: none;
+}
+
+#show-page-info {
+    text-decoration: underline;
+    text-decoration-color: rgb(40, 40, 40);
+}
+
+#show-page-info:hover {
+    cursor: pointer;
+}
+
+#hide {
+    color: rgb(239,219,197,1);
+    background-color: rgb(40, 40, 40);
+    border-radius: 3px;
+}

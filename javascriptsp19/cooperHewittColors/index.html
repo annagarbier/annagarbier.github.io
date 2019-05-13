@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cooper Hewitt Colors on Display</title>
+  <meta name="JavaScript Sp19 Final" content="JavaScript Sp19">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header></header>
+  <section>
+    <div id="chart-div"></div>
+    <div id="info">
+        <h1>COOPER HEWITT<br>COLORS ON DISPLAY</h1>
+        <p>Hover, click, <span id="show-page-info">show page info</span>.</p>
+        <div id="page-info">
+            <p>
+                <b>About:</b> Scroll over the bubbles to see objects from the Cooper Hewitt collection
+                that contain the target Crayola color. Click on the bubble to view the
+                corresponding object.
+            </p>
+            <p>
+                <b>Data:</b> <a href="https://collection.cooperhewitt.org/api/methods/"
+                target="_blank">Cooper Hewitt API</a>
+            </p>
+            <p>
+                <b>Author:</b> Anna Garbier
+            </p>
+        </div>
+        <div id="info-txt"></div>
+        <div id="color-txt"></div>
+    </div>
+  </section>
+
+  <!-- D3 Library -->
+  <!-- TODO: Did try using gulp (see package.json d3 dependency)
+       but having some trouble with whatever the final step is for
+       then using that dependency. So keeping the cdnjs reference
+       for now. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+  <!-- Retrieve data -->
+  <script src="js/get_data.js"></script>
+  <!-- Display dynamic content -->
+  <script src="js/display_data.js"></script>
+</body>
+</html>

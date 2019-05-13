@@ -1,0 +1,14 @@
+{
+  "name": "cooperhewittcolors",
+  "version": "1.0.0",
+  "description": "Visualize the colors of Cooper Hewitt's museum collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "annagarbier",
+  "license": "ISC",
+  "devDependencies": {
+    "d3": "^4.2.2"
+  }
+}
