@@ -11,7 +11,6 @@ Created by Anna Garbier, using Kate Compton's [Tracery](http://tracery.io/) libr
 
 ## Example output
 
-```txt
 STILL LIFE
 A table laid with imported luxuries, an almanac, and a type of glass known as a roemer invites the viewer to associate visual and luxurious pleasure. But a closer look reveals crumbling objects of veneration, a reminder of life's brevity.
 
@@ -20,4 +19,3 @@ Two women of different ages sit on upholstered chairs. The elder, with a sausage
 
 LANDSCAPE
 A pavilion bisects the foreground of this painting, dividing the woods on the left from a respectable home on the right. Various figures—horses, a young woman strumming a lute, and a wayfarer seeking alms—add anecdotal interest to the particular scene.
-```
