@@ -25,3 +25,7 @@ the woods on the left from a respectable home on the right.
 Various figures—horses, a young woman strumming a lute, and
 a wayfarer seeking alms—add anecdotal interest to the scene.
 ```
+
+## Ouroboros?
+
+![Drawing](https://annagarbier.github.io/hybridProjects/wk_02_ekphrastic_cfg/img/sample.jpg)
