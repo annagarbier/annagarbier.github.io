@@ -28,4 +28,4 @@ a wayfarer seeking alms—add anecdotal interest to the scene.
 
 ## Ouroboros?
 
-![Drawing](https://annagarbier.github.io/hybridProjects/wk_02_ekphrastic_cfg/img/sample.jpg)
+<img src="https://annagarbier.github.io/hybridProjects/wk_02_ekphrastic_cfg/img/sample.jpg" width="300px">
