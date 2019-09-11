@@ -23,6 +23,5 @@ LANDSCAPE
 A pavilion bisects the foreground of this painting, dividing
 the woods on the left from a respectable home on the right.
 Various figures—horses, a young woman strumming a lute, and
-a wayfarer seeking alms—add anecdotal interest to the
-particular scene.
+a wayfarer seeking alms—add anecdotal interest to the scene.
 ```
