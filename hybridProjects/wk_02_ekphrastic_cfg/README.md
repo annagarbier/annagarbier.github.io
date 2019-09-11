@@ -1,6 +1,6 @@
 # Dutch Masterpieces (CFG style)
 
-> A dozen [ekphrastic](https://en.wikipedia.org/wiki/Ekphrasis) texts from [The Met's Dutch Masterpieces](https://www.metmuseum.org/exhibitions/listings/2018/in-praise-of-painting-dutch-masterpieces) collection are procedurally woven together using [context-free grammars](https://en.wikipedia.org/wiki/Context-free_grammar). The result? A series of fictional paintings to ponder (or paint!).
+A dozen [ekphrastic](https://en.wikipedia.org/wiki/Ekphrasis) texts from [The Met's Dutch Masterpieces](https://www.metmuseum.org/exhibitions/listings/2018/in-praise-of-painting-dutch-masterpieces) collection are procedurally woven together using [context-free grammars](https://en.wikipedia.org/wiki/Context-free_grammar). The result? A series of fictional paintings to ponder (or paint!).
 
 > Created by Anna Garbier, using Kate Compton's [Tracery](http://tracery.io/) library.
 
