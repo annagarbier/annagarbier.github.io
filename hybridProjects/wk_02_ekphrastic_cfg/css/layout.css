@@ -35,6 +35,11 @@ a {
 	border-radius: 3px;
 }
 
+#refresh {
+	background-color: rgb(237, 215, 74);
+	border-radius: 3px;
+}
+
 button {
 	display: inline;
 }
