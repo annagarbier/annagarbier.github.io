@@ -26,6 +26,6 @@ Various figures—horses, a young woman strumming a lute, and
 a wayfarer seeking alms—add anecdotal interest to the scene.
 ```
 
-## Ouroboros?
+## What next?
 
 <img src="https://annagarbier.github.io/hybridProjects/wk_02_ekphrastic_cfg/img/sample.jpg" width="300px">
