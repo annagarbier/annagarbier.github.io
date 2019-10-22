@@ -28,7 +28,7 @@ function draw() {
 function drawLines(y_start, y_end) {
     stroke(.56, .8, random(.2, .7));
     strokeWeight(random(.8, 1));
-    for (x = drawing_border; x < width - drawing_border; x += random(4, 3)) {
+    for (x = drawing_border; x < width - drawing_border; x += random(3, 4)) {
         line(x, y_start + random(4), x, y_end + random(4));
     }
 }
