@@ -20,7 +20,7 @@ visuals? How do we talk to computers about visuals?
 
 ![Image](https://annagarbier.github.io/exampleCode/nlpDraw/nlpDrawImg.png)
 
-## [./naiveThesaurus](https://github.com/annagarbier/exampleCode/edit/master/naiveThesaurus)
+## [./naiveThesaurus](https://annagarbier.github.io/exampleCode/naiveThesaurus/)
 
 A recursively naive thesaurus. When "Synonym-ize" or "Antonym-ize" is
 pressed, each word in the text box is replaced with a random synonym
