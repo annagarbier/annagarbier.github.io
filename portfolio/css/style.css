@@ -38,6 +38,10 @@ nav a:visited {
     color: rgb(30, 30, 30);
 }
 
+a, a:visited {
+    color: rgb(30, 30, 30);
+}
+
 /* Section */
 section {
     width: 100%;
@@ -111,16 +115,20 @@ section .title {
     font-weight: bold;
 }
 
+.long-text {
+  max-width: 800px;
+}
+
 .text-snippet {
     padding-left: 20px;
     font-style: italic;
-    max-width: 580px;
+    max-width: 780px;
 }
 
 .code-snippet {
     padding-left: 20px;
     font-style: italic;
-    max-width: 580px;
+    max-width: 780px;
     font-family: 'Courier';
 }
 
