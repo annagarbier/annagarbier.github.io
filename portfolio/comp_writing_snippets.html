@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Anna Garbier</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <!-- <li id="name">Anna Garbier</li> -->
+                    <li style="float:right"><a href="./about.html">About</a></li>
+                    <li style="float:right"><a href="./index.html">Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h1>
+                Computational writing snippets
+            </h1>
+            <p class="about"><i>
+                The following are notes for an ongoing computational writing project,
+                updated periodically.</i>
+            </p>
+            <p class="about">
+                Over the past year, I created several mini text generation programs.
+                Through these programs, I tested different generative methods including
+                basic string operations, Markov models, context-free grammars, and neural
+                networks. Because none of these programs can generate language out of
+                nothing, I also tested various input texts: I fed my language-hungry
+                programs everything from novels, to Craigslist ads, to restaurant menus,
+                to simple lists of words.
+            </p>
+            <p class="about">
+                These exercises resulted in little narrative "snapshots" made mostly
+                of existing language around us. For example, a book review made of
+                wine descriptions, a tale of recycled goods from Craigslist,
+                an imaginary still-life from the Met collections:
+            </p>
+            <p class="text-snippet">
+                The book deals with angular and epic themes like putting a
+                triangle in your mouth over and over again.
+            </p>
+            <p  class="text-snippet">
+                Free…<br>
+                because it's old<br>
+                because I want a smaller one<br>
+                because I'm moving<br>
+                because my wife left<br>
+                because I need them to go to a good home
+            <p class="text-snippet">
+                A table laid with lobsters, a lemon peel, and lush fruit invites the
+                viewer to associate visual and indulgent pleasure. But a closer look reveals
+                broken mantle-pieces nearly hidden in shadow, a reminder of luxury's brevity.
+            </p>
+            <p class="about">
+                Along the way, I've also wondered whether a particular
+                programming language may guide me towards specific types
+                of computational writing. I added different languages into
+                the mix. For example, the same little program written in Perl,
+                Python, and Clojure.
+            </p>
+            <p class="code-snippet">
+                # Perl<br>
+                my $file = path("craigslist.txt");<br>
+                my $content = $file->slurp_utf8();<br>
+                my @strings = $content =~ /because [^\.\!\,]*/g;<br>
+                <br>
+                print("Free...\n");<br>
+                foreach my $s (@strings) {<br>
+                print(" ${s}\n");</span><br>
+                }
+            </p>
+            <p class="code-snippet">
+                # Pytnon<br>
+                with open('craigslist.txt', 'r') as f:<br>
+                    print('Free...')<br>
+                    for match in re.findall(r'because[^\.\!\,]*', f.read()):<br>
+                    print(' ' + match)<br>
+            </p>
+            <p class="code-snippet">
+                ; Clojure<br>
+                (defn -main []<br>
+                    (println "Free...")<br>
+                    (doseq [match (re-seq #"because [^\.\!\,]*"<br>
+                                    (slurp (io/resource "craigslist.txt")))]<br>
+                        (apply println (concat [" " match]))))<br>
+            </p>
+            <p class="about">
+                What next? I'll be creating a longer-form generative piece
+                written in Clojure that builds new narratives from the everyday
+                language of the Internet (e.g. restaurant menus, user manuals, reviews).
+            </p>
+        </section>
+    </body>
+</html>

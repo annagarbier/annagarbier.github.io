@@ -1,0 +1,139 @@
+body, html {
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    color: rgb(30, 30, 30);
+}
+
+/* Navigation bar */
+nav ul {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a, #name {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(30, 30, 30)
+}
+
+nav a:hover, nav .active {
+    text-decoration: underline;
+    color: rgb(30, 30, 30);
+}
+
+nav a:visited {
+    color: rgb(30, 30, 30);
+}
+
+/* Section */
+section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    margin: auto;
+    /* min-width: 800px; */
+}
+
+section .gallery-col-full {
+    float: left;
+    width: 100%; /* one col of images */
+    padding-bottom: 50px;
+}
+
+section .gallery-col-half-l {
+    float: left;
+    width: 45%; /* two cols of images */
+    padding-bottom: 50px;
+}
+
+section .gallery-col-half-r {
+    float: right;
+    width: 45%; /* two cols of images */
+    padding-bottom: 50px;
+}
+
+section .gallery-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+section img, .img-text, video {
+    width: 100%;
+    display: block;
+}
+
+section .img-text {
+    font-size: 16px;
+    margin-top: 10px;
+    /* font-style: italic; */
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+section .text-content {
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+section h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+section .subtitle {
+    /* color: rgb(100, 100, 100); */
+    font-weight: regular;
+}
+
+/* Contentn pages */
+.about {
+    max-width: 600px;
+}
+
+section .title {
+    font-weight: bold;
+}
+
+.text-snippet {
+    padding-left: 20px;
+    font-style: italic;
+    max-width: 580px;
+}
+
+.code-snippet {
+    padding-left: 20px;
+    font-style: italic;
+    max-width: 580px;
+    font-family: 'Courier';
+}
+
+.code-snippet-tab {
+    padding-left: 40px;
+}
+
+/* Dynamic columns */
+/* Medium and small windows are one column wide */
+@media (max-width: 1200px) {
+    section .gallery-col-full,
+    section .gallery-col-half-l,
+    section .gallery-col-half-r {
+        width: 100%;
+    }
+}
