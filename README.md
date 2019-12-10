@@ -1,1 +1,1 @@
-Thanks for visiting. This site is under construction.
+Thanks for visiting. See updated information at annagarbier.github.io/portfolio!
