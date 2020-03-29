@@ -4,7 +4,7 @@ body {
   font-family: 'Helvetica', sans-serif;
   margin: 15px;
   font-size: 18px;
-  font-weight: 350;
+  margin-bottom: 20px;
 }
 
 #header {
@@ -136,7 +136,7 @@ a img:hover {
 }
 
 /* Narrow screen */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 830px) {
   #header {
     float: left;
     width: 50%;
