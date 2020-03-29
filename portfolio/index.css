@@ -1,0 +1,172 @@
+html,
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Helvetica', sans-serif;
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 350;
+}
+
+#header {
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#menu {
+  float: left;
+  width: 270px;
+  color: gray;
+}
+
+div.sticky {
+  /* position: fixed;
+  top: 98px; */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+li a:hover {
+  cursor: pointer;
+  color: black;
+}
+
+#content {
+  width: calc(100% - 270px);
+  padding: 0;
+  margin: 0;
+  margin-left: 270px;
+}
+
+#content img {
+  width: 100%;
+}
+
+.work-info {
+  color: gray;
+  font-size: 14px;
+  float: right;
+  margin-top: 0;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.selected {
+  color: black;
+  font-weight: 500;
+}
+
+.content-section {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.project-description {
+  /* font-size: calc(90vw / 40); */
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.project-description-no-top {
+  /* font-size: calc(90vw / 40); */
+  font-size: 25px;
+  line-height: 1.2;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.project-description-long {
+  /* font-size: calc(90vw / 40); */
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.project-description a,
+.project-description-long a {
+  color: black;
+}
+
+.appendix {
+  margin-top: 50px;
+  padding-top: 10px;
+  border-top: 1px solid black;
+}
+
+.appendix,
+.appendix a {
+  color: black;
+}
+
+.appendix p {
+  max-width: 600px;
+}
+
+.active {
+  color: black;
+  font-weight: 600;
+}
+
+#content img.halfw-image {
+  width: 50%;
+}
+
+a img:hover {
+  opacity: 0.8;
+}
+
+/* Narrow screen */
+@media only screen and (max-width: 800px) {
+  #header {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: none;
+  }
+  #menu {
+    float: left;
+    width: 50%;
+    color: gray;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  #content {
+    border-top: 1px solid black;
+    width: 100%;
+    padding-top: 20px;
+    margin: 0;
+    float: left;
+  }
+  div.sticky {
+    position: static;
+  }
+
+  .project-description,
+  .project-description-long,
+  .project-description-no-top {
+    font-size: 18px;
+  }
+}

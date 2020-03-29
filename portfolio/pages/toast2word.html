@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anna Garbier</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+  </head>
+  <body>
+    <h2 id="header">Anna Garbier</h2>
+
+    <div id="menu" class="sticky">
+      <nav>
+        <ul>
+          <li><a href="../index.html">About</a></li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="compform.html">Computational sketchbook</a>
+          </li>
+          <li><a href="codedtextiles.html">Coded textiles</a></li>
+          <li><a href="rewilding.html">Rewildng</a></li>
+          <li><a href="wordplay.html">Wordplay</a></li>
+          <li><a href="" class="active">Toast2Word</a></li>
+          <li><a href="gutenbergcovers.html">Gutenberg covers</a></li>
+          <li><a href="sketches.html">Sketches by hand</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="content">
+      <div class="content-section">
+        <p class="project-description-no-top">
+          <b>Toast2Word</b> is a word-guessing game, played between a human and
+          a computer program. Based on an older folk game, this machine
+          learning-remake challenges human and machine to explore semantic space
+          together: one using linguistic intuition, the other using vector math.
+        </p>
+        <p class="project-description-long">
+          The setting of the game is a large cluster of words.
+        </p>
+        <img src="../assets/toast2word/wordset_blur_border.png" />
+        <p class="project-description-long">
+          The cluster is arranged so that similar words are close together, and
+          dissimilar words are far apart.
+        </p>
+        <img src="../assets/toast2word/semantic_space_blur_border.png" />
+        <p class="project-description-long">
+          The program starts by choosing a <i>secret word</i> among the cluster.
+          The player must discover the secret word by asking a series of
+          <i>"Is it closer to ___ or ___?"</i> questions.<br /><br />The
+          guessing always starts with <i>toast</i>, hence the name of the game.
+        </p>
+        <img src="../assets/toast2word/guess_blur_border.png" />
+        <p class="project-description-long">
+          Each guess has the potential to take the player one step closer to the
+          secret word.
+        </p>
+        <img src="../assets/toast2word/correct_guess_blur_border.png" />
+        <p class="project-description-long">
+          The guessing continues...
+        </p>
+        <img src="../assets/toast2word/guessing_continues_blur_border.png" />
+        <p class="project-description-long">
+          Until the secret word is found!
+        </p>
+        <img src="../assets/toast2word/correct_guess.png" />
+        <p class="project-description-long">
+          For the bold, the game is also playable without any visual hints...
+        </p>
+        <img src="../assets/toast2word/no_hints.png" />
+        <div class="appendix">
+          <p>
+            <b>Credits</b><br />
+            Made in collaboration with Lan Zhang, with the goal of creating a
+            new way to explore data using machine learning.<br /><br />
+            <b>Tools</b><br />
+            The words were curated by us, processed with spaCy word2vec, plotted
+            with Sci-kitLearn t-SNE, and brought to the browser with pixi.js.<br /><br />
+            <b>Links</b><br />
+            Play:
+            <a target="_blank" href="https://toast2word.netlify.com"
+              >toast2word.netlify.com</a
+            ><br />Read more:
+            <a target="_blank" href="https://github.com/lanzhang76/toast"
+              >github.com/lanzhang76/toast</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
