@@ -1,2 +1,1 @@
-Under construction. Please try again very soon!
-Last updated: 2020-04-29, 11:00 EST
+Thanks for visiting. Please see annagarbier.github.io/portfolio for sample projects.
