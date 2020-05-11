@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercises in text generation</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.typekit.net/idi5wed.css" />
+
+    <!-- development version, includes helpful console warnings -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+
+    <!-- production version, optimized for size and speed -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  </head>
+  <body>
+    <div id="title">
+      <div id="title-text">
+        <h1>Exercises in Meta-cohesion</h1>
+        <h2>Writing with AI | Anna Garbier 2020</h2>
+      </div>
+      <div id="title-content">
+        <p>
+          In 2019, OpenAI released GPT-2, a language model capable of generating
+          whole paragraphs of text at a time. GPT-2’s output, stripped of
+          inhibition and ego, offers delightful linguistic surprises run after
+          run.
+        </p>
+        <p>
+          As exciting as it is to watch a machine produce something so
+          convincingly human, the novelty eventually wears off. When it does,
+          we’re left to wonder: how do we make this statistical trick — an
+          assembly of words no longer contingent on an author’s intention — mean
+          something to us?
+        </p>
+        <p>
+          In the following <i>Exercises in Meta-cohesion</i> (named after
+          Raymond Queneau’s <i>Exercices de Style</i>), GPT-2 and I create
+          twelve character studies together. Each is the result of an identical
+          formula. I give GPT-2 five fixed prompts. In return, GPT-2 continues
+          each prompt, filling in the scaffolding.
+        </p>
+        <p>
+          For each character study, exactly one thing changes: I tweak GPT-2 to
+          mimic a different linguistic neighborhood of the internet. (Or, more
+          precisely, I fine-tune GPT-2 on a specific Subreddit corpus.) Through
+          this formula of repetition with slight variation, I explore what it
+          means to put words artfully together.
+        </p>
+      </div>
+    </div>
+
+    <div id="content">
+      <div id="nav-div">
+        <div id="bookmark">
+          <div class="tab" id="tab-0"></div>
+          <div class="tab" id="tab-1"></div>
+          <div class="tab" id="tab-2"></div>
+          <div class="tab" id="tab-3"></div>
+          <div class="tab" id="tab-4"></div>
+          <div class="tab" id="tab-5"></div>
+          <div class="tab" id="tab-6"></div>
+          <div class="tab" id="tab-7"></div>
+          <div class="tab" id="tab-8"></div>
+          <div class="tab" id="tab-9"></div>
+          <div class="tab" id="tab-10"></div>
+          <div class="tab" id="tab-11"></div>
+        </div>
+      </div>
+
+      <div id="chapter">
+        <button id="previous">←</button>
+        <button id="next">→</button>
+        <div id="dynamic-text">
+          <!-- <img src="assets/exercises_draw_gun_w.png" /> -->
+          <h2>{{ id }}</h2>
+          <p>
+            <span class="hideshow prompt"
+              >I wish people understood me better.</span
+            >
+            <span class="generated">{{ vulnerability }}</span>
+            <span class="hideshow prompt">I just want one thing.</span>
+            <span class="generated">{{ desire }}</span>
+            <span class="hideshow prompt">Why? Because</span>
+            <span class="generated">{{ deeper_desire }}</span>
+          </p>
+          <p>
+            <span class="prompt-keep">{{ bridge }}</span>
+            <span class="generated">{{ bridge_continue }}</span>
+            <span class="hideshow prompt">Maybe we’re not that different.</span>
+            <span class="generated">{{ common }}</span>
+          </p>
+          <div id="info">
+            <span id="source"
+              ><i
+                >Written by GPT-2 355M tuned on
+                <span id="subreddit">{{ corpus }}</span> corpus</i
+              ></span
+            ><br />
+            <span id="key">
+              <span id="prompt-key"
+                ><i>Written by me, and later removed</i></span
+              ><br />
+              <span id="prompt-keep-key"><i>Written by me, and kept</i></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/chapters.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>

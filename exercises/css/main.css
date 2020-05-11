@@ -1,0 +1,249 @@
+body {
+  font-size: 22px;
+  margin: 0;
+  line-height: 1.25;
+  color: white;
+  /* font-family: Georgia, Times, 'Times New Roman', serif; */
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-weight: 100;
+}
+
+#nav-div {
+  position: relative;
+  min-height: 20px;
+  /* background-color: green; */
+  bottom: 0;
+}
+
+h2 {
+  margin: 0;
+}
+#chapter {
+  position: relative;
+  min-height: calc(100vh - 20px);
+  bottom: 0;
+  width: 100%;
+  /* background-color: red; */
+  padding-top: 0;
+  margin-top: 0;
+  background-color: black;
+}
+.generated {
+  color: white;
+  /* color: black; */
+}
+
+.prompt {
+  display: inline;
+  text-decoration: line-through;
+  vertical-align: top;
+  line-height: 23px;
+  background-color: rgb(212, 39, 39);
+  color: black;
+  word-wrap: break-word;
+  /* color: white; */
+}
+.prompt-keep {
+  display: inline;
+  border-radius: 2px;
+  transition: background-color 0.6s linear;
+}
+
+#info {
+  border-top: 1px solid white;
+  /* border-top: 1px solid black; */
+  display: none;
+  font-size: 20px;
+  padding-top: 5px;
+  margin-top: 30px;
+}
+#source {
+  /* text-decoration: overline; */
+  font-weight: lighter;
+}
+#prompt-key {
+  background-color: rgba(212, 39, 39);
+  color: black;
+  /* color: white; */
+  text-decoration: line-through;
+  border-radius: 2px;
+}
+#prompt-keep-key {
+  background-color: rgb(212, 39, 39);
+  border-radius: 2px;
+}
+
+/* appear/disappear text */
+.hideshow {
+  display: inline-block;
+  vertical-align: center;
+  overflow: hidden;
+  max-width: 0rem;
+  max-height: 22px;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  word-wrap: break-word;
+  border-radius: 2px;
+}
+
+#dynamic-text {
+  /* border: 1px solid white; */
+  max-width: 700px;
+  margin: auto;
+  padding: 10vw 80px;
+}
+
+@keyframes appeartext {
+  from {
+    max-width: 0rem;
+    max-height: 23px;
+  }
+  to {
+    max-width: 40rem;
+    max-height: 23px;
+  }
+}
+
+@keyframes disappeartext {
+  from {
+    max-width: 40rem;
+    max-height: 23px;
+  }
+  to {
+    max-width: 0rem;
+    max-height: 23px;
+  }
+}
+
+/* https://codepen.io/ariona/pen/LEEadb */
+
+/* bookmark */
+#bookmark {
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  top: 0px;
+  left: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  border: none;
+}
+#bookmark > div {
+  /* display: inline-block; */
+  width: 50%;
+  margin: 0px;
+  text-align: center;
+}
+.tab {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  height: 20px;
+  /* border-top: 1px solid black;
+  border-right: 1px solid black; */
+}
+
+/* arrows */
+#previous {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 10px;
+  font-size: 25px;
+  background-color: black;
+  /* background-color: white; */
+  color: white;
+  /* color: black; */
+  border: none;
+  font-size: 1.5em;
+  /* border: 1px solid white;
+    border-radius: 6px; */
+}
+
+#next {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 20px;
+  background-color: black;
+  /* background-color: white; */
+  color: white;
+  /* color: black; */
+  border: none;
+  font-size: 1.5em;
+}
+
+button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+button:focus {
+  outline: none;
+}
+
+#title {
+  background: white;
+  min-height: 100vh;
+  color: black;
+  padding: 0 20px 50px 20px;
+}
+
+#chapter:hover {
+  position: relative;
+}
+
+#subreddit {
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  height: 10vh;
+  padding-right: 10px;
+}
+
+/* Disable highlight */
+::selection {
+  color: none;
+  background: none;
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+  color: none;
+  background: none;
+}
+
+/* title content */
+#title-content {
+  max-width: 700px;
+  margin: auto;
+  min-height: 100vh;
+}
+
+#title-text {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  max-width: 700px;
+  margin: auto;
+  padding-top: 15%;
+}
+
+#title h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+  line-height: 1em;
+}
+
+p {
+  margin: 0;
+  padding-top: 0.75em;
+}
+
+/* dev */
+/* body:hover {
+  cursor: none;
+} */
