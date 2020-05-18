@@ -25,7 +25,7 @@ html {
 .item {
   width: 100%;
   border-top: 3px solid black;
-  margin-top: 30px;
+  padding-bottom: 70px;
   overflow: hidden;
 }
 
@@ -57,10 +57,12 @@ html {
 
 /* Footer */
 #footer {
-  width: 100%;
+  /* width: 100%;
   border-top: 3px solid black;
   margin-top: 40px;
-  font-size: 0.75rem;
+  margin-bottom: 40px;
+  font-size: 0.75rem; */
+  display: none;
 }
 
 #footer ul {
