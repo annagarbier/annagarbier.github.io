@@ -1,0 +1,172 @@
+body,
+html {
+  font-family: 'Neue Haas Grotesk', Helvetica, sans-serif;
+  font-size: 28px;
+  /* background-color: rgb(221, 203, 132); */
+  padding: 2px 6px 2px 2px;
+  min-height: 100vh;
+}
+
+/* Header */
+#nav {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#nav div {
+  display: inline-block;
+}
+
+#nav #about {
+  float: right;
+}
+
+/* Index */
+.item {
+  width: 100%;
+  border-top: 3px solid black;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.item p {
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+.item .title {
+  display: inline-block;
+  width: 20%;
+  font-weight: bold;
+  padding: 0% 5% 0% 0%;
+}
+
+.item .desc {
+  display: inline-block;
+  width: 40%;
+  font-size: 0.75rem;
+  padding: 0% 5% 0% 0%;
+}
+
+.item .collab {
+  display: inline-block;
+  width: 25%;
+  font-size: 0.75rem;
+  padding: 0% 0% 0% 0%;
+}
+
+/* Footer */
+#footer {
+  width: 100%;
+  border-top: 3px solid black;
+  margin-top: 40px;
+  font-size: 0.75rem;
+}
+
+#footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#copyright {
+  float: left;
+}
+.bottom-nav {
+  float: right;
+  margin-left: 35px;
+}
+
+/* All */
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+/* Project pages */
+#gallery {
+  margin-top: 20px;
+}
+
+#gallery img {
+  width: 100%;
+}
+
+#gallery iframe {
+  width: 100%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.gallery-item {
+  margin-bottom: 40px;
+}
+
+.project-summary {
+  display: inline-block;
+  width: 60%;
+  font-size: 0.75rem;
+}
+
+.external {
+  text-decoration: underline;
+}
+
+.external:hover {
+  cursor: alias;
+}
+
+.project-subhead {
+  font-weight: bold;
+}
+
+/* About page */
+.info {
+  font-size: 0.75rem;
+}
+
+/* Narrow screen */
+@media only screen and (max-width: 800px) {
+  .item .title,
+  .item .desc,
+  .item .collab {
+    width: 100%;
+  }
+  .item p {
+    margin: 3px 0;
+  }
+  body,
+  html {
+    padding: 2px;
+  }
+  .bottom-nav {
+    display: none;
+  }
+  .item .index-hide-small {
+    display: none;
+  }
+  .item .collab {
+    margin-top: 20px;
+  }
+  #gallery {
+    margin-top: 20px;
+  }
+}
