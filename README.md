@@ -1,1 +1,1 @@
-Thanks for visiting. Please see annagarbier.github.io/portfolio for sample projects.
+Thanks for visiting. Please see https://annagarbier.com for projects.
