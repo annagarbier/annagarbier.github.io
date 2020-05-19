@@ -1,1 +1,1 @@
-Thanks for visiting. Please see https://annagarbier.com for projects.
+Thanks for visiting. Please see [annagarbier.com](https://annagarbier.com) for projects.
