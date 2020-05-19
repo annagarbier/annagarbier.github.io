@@ -7,6 +7,11 @@ html {
   min-height: 100vh;
 }
 
+#redirect {
+  text-decoration: underline;
+  color: blue;
+}
+
 /* Header */
 #nav {
   font-weight: bold;
