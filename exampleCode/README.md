@@ -141,11 +141,3 @@ Anna Garbier & Lan Zhang
 * A collaborative coding environment for writing GLSL fragment shaders, made for a virtual class workshop during COVID-19.
 * [Go to live page](https://bloopp.herokuapp.com/)
 * [View code](https://github.com/lanzhang76/bloop_shader_app)
-
-<br>
-
-<hr>
-
-<br>
-
-## Teaching
