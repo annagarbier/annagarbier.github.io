@@ -5,6 +5,8 @@
 
 Rerpository of example projects, with short textual and visual descriptions of each.
 
+<br>
+
 ## [./soundGrid](https://github.com/annagarbier/exampleCode/edit/master/soundGrid)
 
 An audio-responsive grid, with sound samples from the
@@ -12,6 +14,8 @@ An audio-responsive grid, with sound samples from the
 and visuals inspired by Georg Nees. (**[Go to live page](https://annagarbier.github.io/exampleCode/soundGrid/)**)
 
 ![Image](https://annagarbier.github.io/exampleCode/soundGrid/sound_grid.png)
+
+<br>
 
 ## [./nlpDraw](https://github.com/annagarbier/exampleCode/edit/master/nlpDraw)
 
@@ -21,6 +25,8 @@ the top left" or "make a tiny triangle", and generates a corresponding
 drawing on the screen. (**[Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)**)
 
 ![Image](https://annagarbier.github.io/exampleCode/nlpDraw/nlpDrawImg.png)
+
+<br>
 
 ## [./naiveThesaurus](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/naiveThesaurus)
 
@@ -32,11 +38,15 @@ if one is available.
 
 ![Image](https://annagarbier.github.io/exampleCode/naiveThesaurus/naiveThesaurus.png)
 
+<br>
+
 ## [./blueLines](https://github.com/annagarbier/exampleCode/edit/master/blueLines)
 
 A super-short study on the aesthetics of controlled randomness. (**[Go to live page](https://annagarbier.github.io/exampleCode/blueLines/)**)
 
 ![Image](https://annagarbier.github.io/exampleCode/blueLines/blueLinesImg.png)
+
+<br>
 
 ## [./solLewitt](https://github.com/annagarbier/exampleCode/edit/master/solLewitt)
 
@@ -46,12 +56,16 @@ Sol LeWitt-style instructions for language generation. (**[Go to live page](http
 
 ![Image](https://annagarbier.github.io/exampleCode/solLewitt/solLewittImg.png)
 
+<br>
+
 ## [./p5Cfg](https://github.com/annagarbier/exampleCode/edit/master/p5Cfg)
 
 A context-free grammar that generates infinite variations of functional [P5.js](https://p5js.org/) code.
 (**[Go to live page](https://annagarbier.github.io/exampleCode/p5Cfg/)**)
 
 ![Image](https://annagarbier.github.io/exampleCode/p5Cfg/example_ten.png)
+
+<br>
 
 ## [./ekphrastic](https://github.com/annagarbier/exampleCode/edit/master/ekphrastic)
 
@@ -60,3 +74,5 @@ from The Met's Dutch Masterpieces. The result? An improvised set of fictional
 remixes to ponder. Made using tracery.io. (**[Go to live page](https://annagarbier.github.io/exampleCode/ekphrastic/)**)
 
 ![Image](https://annagarbier.github.io/exampleCode/ekphrastic/ekphrastic.png)
+
+<br>
