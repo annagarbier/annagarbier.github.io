@@ -97,7 +97,7 @@ remixes to ponder. Made using tracery.io.
 
 ## Extended projects
 
-### [text-gen]()
+### [text-gen: visual programming for text manipulation]()
 
 <br>
 
@@ -107,9 +107,9 @@ remixes to ponder. Made using tracery.io.
 
 ## Collaborations
 
-### [toast (word-guessing game)]()
+### [toast2word: a word-guessing game with vector math]()
 
-### [bloop (collaborative GLSL shader]()
+### [bloop: a collaborative GLSL shader environment]()
 
 <br>
 
