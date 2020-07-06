@@ -1,0 +1,16 @@
+cmu_symbol,ipa_symbol,front_back,close_open,rounded,diphthong,description
+AA,ɒ,back,open,TRUE,FALSE,"Round your lips so that they create a small opening. Lower your tongue in your mouth and move it to the back, without creating a constriction. Tense your vocal folds and release air through your mouth."
+AE,æ,front,open,FALSE,FALSE,"Lower your tongue in your mouth and move it to the front of your mouth, without creating a constriction. Tense your vocal folds and push air through your mouth."
+AH,ʌ,back,open_mid,FALSE,FALSE,Raise your tongue very slightly towards the back of the roof of your mouth. Tighten your vocal folds and push air through your mouth.
+AO,ɔ:,back,open_mid,TRUE,FALSE,"Round your lips so that they create a small opening. With your tongue in a relaxed position at the back of your mouth, tighten your vocal folds and release air through your mouth."
+AW,aʊ,,,,TRUE,"Lower your tongue and move it to the front of your mouth. Tense your vocal folds. While pushing air through your mouth, move your tongue towards the roof of your mouth, without actually touching it."
+AY,aɪ,,,,TRUE,"Lower your tongue and move it to the front of your mouth. Tense your vocal folds. While pushing air through your mouth, move your tongue slightly forward and slightly upwards."
+EH,e,front,close_mid,FALSE,FALSE,"Lower your tongue in your mouth and move it to the middle of your mouth, without creating a constriction. Tense your vocal folds and push air through your mouth."
+ER,ɜ:,central,open_mid,FALSE,FALSE,Move your tongue slightly towards the middle of the roof of your mouth. Tense your vocal folds and push air through your mouth.
+EY,eɪ,,,,TRUE,"With your tongue relaxed and at the front of your mouth, tense your vocal folds. While pushing air through your mouth, move your tongue slightly upwards towards the roof of your mouth, leaving a spall space between your tongue and the roof of your mouth."
+IH,ɪ,central,close,FALSE,FALSE,"Move your tongue so that it almost touches the middle of the roof of your mouth, but don't create a constriction. Tense your vocal folds and push air through your mouth."
+IY,i:,front,close,FALSE,FALSE,"Raise your tongue and move it close to the middle of the roof of your mouth, without creating a constriction. Tense your vocal folds and push air through your mouth."
+OW,oʊ,,,,TRUE,"With your tongue relaxed at the back of your mouth, tense your vocal folds. While pushing air through your mouth, round your lips and move your tongue slightly upwards towards the roof of your mouth, leaving a spall space between your tongue and the roof of your mouth. "
+OY,ɔɪ,,,,TRUE,"With your tongue relaxed at the back of your mouth, tense your vocal folds. While pushing air through your mouth, move your tongue slightly upwards and to the front of your mouth."
+UH,ʊ,back,close_mid,FALSE,FALSE,"Raise your tongue slightly so that it goes near, but doesn't quite touch, the back of the roof of your mouth. Tighten your vocal folds and push air through your mouth."
+UW,u:,back,close,TRUE,FALSE,"Round your lips so that they create a small opening. Raise your tongue so that it goes near, but doesn't quite touch, the back of the roof of your mouth. Tighten your vocal folds and release air through your mouth."
