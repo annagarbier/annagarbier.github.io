@@ -52,4 +52,4 @@ A series of context-free grammars weave togther a dozen [ekphrastic](https://en.
 from The Met's Dutch Masterpieces. The result? An improvised set of fictional
 remixes to ponder. Made using tracery.io. (**[Go to live page](https://annagarbier.github.io/exampleCode/ekphrastic/)**)
 
-![Image](https://annagarbier.github.io/exampleCode/solLewitt/ekphrastic.png)
+![Image](https://annagarbier.github.io/exampleCode/ekphrastic/ekphrastic.png)
