@@ -99,6 +99,10 @@ remixes to ponder. Made using tracery.io.
 
 ### [text-gen: visual programming for text manipulation]()
 
+* A visual programming interface for text manipulation, built with the Rete.js library.
+* Work in progress - not yet live
+* [View code](https://github.com/annagarbier/text_gen)
+
 <br>
 
 <hr>
