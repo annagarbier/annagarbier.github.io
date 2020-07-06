@@ -81,7 +81,7 @@ Sol LeWitt-style instructions for language generation.
 Accepts any English text (e.g. 'Hello world!') and generates an exhaustingly long pronunciation guide for that text. 
 * [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/speechWriter)
 
-![Image](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/speechWriter/speech_writer.png)
+![Image](https://annagarbier.github.io/exampleCode/speechWriter/speech_writer.png)
 
 <br>
 
