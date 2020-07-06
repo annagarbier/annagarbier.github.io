@@ -48,7 +48,7 @@ Sol LeWitt-style instructions for language generation. (**[Go to live page](http
 
 ## [./p5Cfg](https://github.com/annagarbier/exampleCode/edit/master/p5Cfg)
 
-A context-free-grammar that generates infinite variations of very simple [P5.js](https://p5js.org/) programs that, when run, produce images like the following.
+A context-free-grammar that generates infinite variations of functional [P5.js](https://p5js.org/) code.
 (**[Go to live page](https://annagarbier.github.io/exampleCode/p5Cfg/)**)
 
 ![Image](https://annagarbier.github.io/exampleCode/p5Cfg/example_ten.png)
