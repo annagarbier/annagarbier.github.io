@@ -10,7 +10,7 @@
 *<a href="#collaborations">Collaborations</a>*
 
 <br>
-<hr>
+<br>
 <br>
 
 <h2 id="short-projects">Short projects</h2>
@@ -106,9 +106,7 @@ remixes to ponder. Made using tracery.io.
 ![Image](https://annagarbier.github.io/exampleCode/ekphrastic/ekphrastic.png)
 
 <br>
-
-<hr>
-
+<br>
 <br>
 
 <h2 id="long-projects">Long projects</h2>
@@ -132,9 +130,7 @@ remixes to ponder. Made using tracery.io.
 ![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/gutenbergCovers/umap.jpg)
 
 <br>
-
-<hr>
-
+<br>
 <br>
 
 <h2 id="collaborations">Collaborations</h2>
