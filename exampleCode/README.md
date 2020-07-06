@@ -69,11 +69,11 @@ Sol LeWitt-style instructions for language generation.
 
 <br>
 
-### [./speechWriter](https://github.com/annagarbier/exampleCode/edit/master/speechWriter)
+### [./speechWriter](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/speechWriter)
 
 * A Python-based iteration of **If Sol LeWitt Wrote Ditties**, with added complexity.
 Accepts any English text (e.g. 'Hello world!') and generates an exhaustingly long pronunciation guide for that text. 
-* [View code](https://github.com/annagarbier/exampleCode/edit/master/speechWriter)
+* [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/speechWriter)
 
 ![Image](https://annagarbier.github.io/exampleCode/speechWriter/speech_writer.png)
 
