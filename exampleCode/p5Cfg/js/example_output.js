@@ -1,0 +1,1 @@
+function setup() { createCanvas(255, 255); background(48, 183, 164); fill(241, 11, 54); stroke(15, 250, 53); strokeWeight(3); ellipse(4, 58, 22, 8); }
