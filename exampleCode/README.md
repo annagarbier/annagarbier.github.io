@@ -117,6 +117,7 @@ remixes to ponder. Made using tracery.io.
 
 * A visual programming interface for text manipulation, built with the Rete.js library.
 * Work in progress - not yet live
+* [Watch demo](https://annagarbier.com/Text-Playground)
 * [View code](https://github.com/annagarbier/text_gen)
 
 ![Image](https://github.com/annagarbier/text_gen/blob/master/textgen.png)
