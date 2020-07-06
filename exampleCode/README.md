@@ -5,13 +5,13 @@
 
 Rerpository of example projects, with textual and visual summaries of each.
 
-> <a href="#short-projects">Shorter projects</a><br>
-<a href="#longer-projects">Longer projects</a><br>
+> <a href="#short-projects">Short projects</a><br>
+<a href="#long-projects">Long projects</a><br>
 <a href="#collaborations">Collaborations</a>
 
 <br>
 
-<h2 id="shorter-projects">Shorter projects</h2>
+<h2 id="short-projects">Short projects</h2>
 
 ### [./soundGrid](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/soundGrid)
 
@@ -109,7 +109,7 @@ remixes to ponder. Made using tracery.io.
 
 <br>
 
-<h2 id="longer-projects">Longer projects</h2>
+<h2 id="long-projects">Long projects</h2>
 
 ### [text-gen: visual programming for text manipulation](https://github.com/annagarbier/text_gen)
 
