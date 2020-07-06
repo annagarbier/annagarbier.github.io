@@ -11,7 +11,6 @@
 
 <br>
 <br>
-<br>
 
 <h2 id="short-projects">Short projects</h2>
 
@@ -159,4 +158,4 @@ Anna Garbier (sole coder) & Anette Millington
 * [Go to live page](https://coded-textiles.github.io/sketches/color_04/)
 * [View code](https://github.com/coded-textiles/coded-textiles.github.io/tree/master/sketches/color_04)
 
-![Image]()
+![Image](https://annagarbier.github.io/exampleCode/readmeAssets/lineage.png)
