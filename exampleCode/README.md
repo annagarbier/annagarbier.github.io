@@ -151,4 +151,4 @@ Anna Garbier & Lan Zhang
 * [Go to live page](https://bloopp.herokuapp.com/)
 * [View code](https://github.com/lanzhang76/bloop_shader_app)
 
-![Image](https://github.com/lanzhang76/bloop_shader_app/blob/master/public/assets/img01.png)
+![Image](https://github.com/lanzhang76/bloop_shader_app/blob/master/public/assets/img01.png?raw=True)
