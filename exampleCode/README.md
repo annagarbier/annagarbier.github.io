@@ -128,6 +128,8 @@ remixes to ponder. Made using tracery.io.
 * We know we shouldn't judge books by their coveres, but what happens when we ask a machine to?
 * [View code](https://github.com/annagarbier/text_gen)
 
+![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/gutenbergCovers/umap.jpg)
+
 <br>
 
 <hr>
