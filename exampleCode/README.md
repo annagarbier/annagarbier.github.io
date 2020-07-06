@@ -144,6 +144,8 @@ Anna Garbier & Lan Zhang
 * [Go to live page](https://toast2word.netlify.app/)
 * [View code](https://github.com/lanzhang76/toast)
 
+![Images](https://github.com/lanzhang76/toast/blob/master/images/00.png)
+
 <br>
 
 ### [Bloop: a collaborative GLSL shader environment](https://github.com/lanzhang76/bloop_shader_app)
