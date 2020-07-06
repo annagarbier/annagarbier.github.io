@@ -1,7 +1,7 @@
 # [Example Code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode)
 
 *Author: annagarbier*     
-*Last update: 2019-03-09*
+*Last update: 2020-07*
 
 Rerpository of example projects, with short textual and visual descriptions of each.
 
