@@ -69,6 +69,16 @@ Sol LeWitt-style instructions for language generation.
 
 <br>
 
+### [./speechWriter](https://github.com/annagarbier/exampleCode/edit/master/speechWriter)
+
+* A Python-based iteration of **If Sol LeWitt Wrote Ditties**, with added complexity.
+Accepts any English text (e.g. 'Hello world!') and generates an exhaustingly long pronunciation guide for that text. 
+* [View code](https://github.com/annagarbier/exampleCode/edit/master/speechWriter)
+
+![Image](https://annagarbier.github.io/exampleCode/speechWriter/speech_writer.png)
+
+<br>
+
 ### [./p5Cfg](https://github.com/annagarbier/exampleCode/edit/master/p5Cfg)
 
 * A context-free grammar that generates infinite variations of functional [P5.js](https://p5js.org/) code.
