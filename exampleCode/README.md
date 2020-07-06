@@ -21,7 +21,7 @@
 [Philharmonia Orchestra](https://philharmonia.co.uk/resources/sound-samples/)
 and visuals inspired by Georg Nees.
 * [Go to live page](https://annagarbier.github.io/exampleCode/soundGrid/)
-* [View code](https://github.com/annagarbier/exampleCode/edit/master/soundGrid)
+* [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/soundGrid)
 
 ![Image](https://annagarbier.github.io/exampleCode/soundGrid/sound_grid.png)
 
