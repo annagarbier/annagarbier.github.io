@@ -107,7 +107,11 @@ remixes to ponder. Made using tracery.io.
 
 ## Collaborations
 
-### [toast2word: a word-guessing game with vector math]()
+### [toast2word: a word-guessing game with vector math](https://github.com/lanzhang76/toast)
+
+* A word-guessing game made using vector math, and played on the web.
+* [Play game](https://toast2word.netlify.app/)
+* [View code](https://github.com/lanzhang76/toast)
 
 ### [bloop: a collaborative GLSL shader environment]()
 
