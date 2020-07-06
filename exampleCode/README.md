@@ -137,6 +137,7 @@ remixes to ponder. Made using tracery.io.
 ### [toast2word: a word-guessing game with vector math](https://github.com/lanzhang76/toast)
 Anna Garbier & Lan Zhang
 * A word-guessing game made using vector math (word2vec), and playable on the web.
+* [Watch demo](https://vimeo.com/435915330)
 * [Go to live page](https://toast2word.netlify.app/)
 * [View code](https://github.com/lanzhang76/toast)
 
@@ -147,6 +148,7 @@ Anna Garbier & Lan Zhang
 ### [Bloop: a collaborative GLSL shader environment](https://github.com/lanzhang76/bloop_shader_app)
 Anna Garbier & Lan Zhang
 * A collaborative coding environment for writing GLSL fragment shaders, made for a virtual class workshop during COVID-19.
+* [Watch demo](https://vimeo.com/manage/435915330)
 * [Go to live page](https://bloopp.herokuapp.com/)
 * [View code](https://github.com/lanzhang76/bloop_shader_app)
 
