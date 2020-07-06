@@ -49,7 +49,7 @@ Sol LeWitt-style instructions for language generation. (**[Go to live page](http
 ## [./ekphrastic](https://github.com/annagarbier/exampleCode/edit/master/ekphrastic)
 
 A series of context-free grammars weave togther a dozen [ekphrastic](https://en.wikipedia.org/wiki/Ekphrasis) texts
-from The Met's Dutch Masterpieces. The result? A series of fictional
+from The Met's Dutch Masterpieces. The result? An improvised set of fictional
 remixes to ponder. Made using tracery.io. (**[Go to live page](https://annagarbier.github.io/exampleCode/ekphrastic/)**)
 
 ![Image](https://annagarbier.github.io/exampleCode/solLewitt/ekphrastic.png)
