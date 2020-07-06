@@ -5,9 +5,13 @@
 
 Rerpository of example projects, with short textual and visual descriptions of each.
 
+> <a href="#short-projects">Shorter projects</a><br>
+<a href="#longer-projects">Longer projects</a><br>
+<a href="#collaborations">Collaborations</a>
+
 <br>
 
-## Short projects
+<h2 id="shorter-projects">Shorter projects</h2>
 
 ### [./soundGrid](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/soundGrid)
 
@@ -105,7 +109,7 @@ remixes to ponder. Made using tracery.io.
 
 <br>
 
-## Longer projects
+<h2 id="longer-projects">Longer projects</h2>
 
 ### [text-gen: visual programming for text manipulation](https://github.com/annagarbier/text_gen)
 
@@ -126,7 +130,7 @@ remixes to ponder. Made using tracery.io.
 
 <br>
 
-## Collaborations
+<h2 id="collaborations">Collaborations</h2>
 
 ### [toast2word: a word-guessing game with vector math](https://github.com/lanzhang76/toast)
 Anna Garbier & Lan Zhang
