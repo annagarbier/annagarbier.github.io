@@ -46,6 +46,12 @@ Sol LeWitt-style instructions for language generation. (**[Go to live page](http
 
 ![Image](https://annagarbier.github.io/exampleCode/solLewitt/solLewittImg.png)
 
+## [./p5Cfg](https://github.com/annagarbier/exampleCode/edit/master/p5Cfg)
+
+A context-free-grammar that generates infinite variations of very simple P5.js code. A concept for further development.
+
+![Image](https://annagarbier.github.io/exampleCode/p5Cfg/example_ten.png)
+
 ## [./ekphrastic](https://github.com/annagarbier/exampleCode/edit/master/ekphrastic)
 
 A series of context-free grammars weave togther a dozen [ekphrastic](https://en.wikipedia.org/wiki/Ekphrasis) texts
