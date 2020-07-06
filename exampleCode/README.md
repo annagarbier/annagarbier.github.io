@@ -112,15 +112,14 @@ remixes to ponder. Made using tracery.io.
 * A visual programming interface for text manipulation, built with the Rete.js library.
 * Work in progress - not yet live
 * [View code](https://github.com/annagarbier/text_gen)
+* Status: in progress
 
 <br>
 
-### [Gutenberg Covers: visual programming for text manipulation](https://github.com/annagarbier/text_gen)
+### [Gutenberg Covers: cover sorting with machine learning](https://github.com/annagarbier/text_gen)
 
-* A visual programming interface for text manipulation, built with the Rete.js library.
-* Work in progress - not yet live
+* We know we shouldn't judge books by their coveres, but what happens when we ask a machine to?
 * [View code](https://github.com/annagarbier/text_gen)
-
 
 <br>
 
