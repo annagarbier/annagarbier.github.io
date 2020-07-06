@@ -119,6 +119,8 @@ remixes to ponder. Made using tracery.io.
 * Work in progress - not yet live
 * [View code](https://github.com/annagarbier/text_gen)
 
+![Image](https://github.com/annagarbier/text_gen/blob/master/textgen.png)
+
 <br>
 
 ### [./gutenbergCovers: sorting book covers with machine learning](https://github.com/annagarbier/text_gen)
