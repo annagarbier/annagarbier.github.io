@@ -105,13 +105,22 @@ remixes to ponder. Made using tracery.io.
 
 <br>
 
-## Extended projects
+## Longer projects
 
-### [text-gen: visual programming for text manipulation]()
+### [text-gen: visual programming for text manipulation](https://github.com/annagarbier/text_gen)
 
 * A visual programming interface for text manipulation, built with the Rete.js library.
 * Work in progress - not yet live
 * [View code](https://github.com/annagarbier/text_gen)
+
+<br>
+
+### [Gutenberg Covers: visual programming for text manipulation](https://github.com/annagarbier/text_gen)
+
+* A visual programming interface for text manipulation, built with the Rete.js library.
+* Work in progress - not yet live
+* [View code](https://github.com/annagarbier/text_gen)
+
 
 <br>
 
@@ -123,14 +132,16 @@ remixes to ponder. Made using tracery.io.
 
 ### [toast2word: a word-guessing game with vector math](https://github.com/lanzhang76/toast)
 Anna Garbier & Lan Zhang
-* A word-guessing game made using vector math, and played on the web.
-* [Go to live page](https://toast2word.netlify.app/)
+* A word-guessing game made using vector math (word2vec), and playable on the web.
+* [Go to live page](https://toast2word.netlify.app/) (https://toast2word.netlify.app/)
 * [View code](https://github.com/lanzhang76/toast)
 
-### [bloop: a collaborative GLSL shader environment](https://github.com/lanzhang76/bloop_shader_app)
+<br>
+
+### [Bloop: a collaborative GLSL shader environment](https://github.com/lanzhang76/bloop_shader_app)
 Anna Garbier & Lan Zhang
 * A collaborative coding environment for writing GLSL fragment shaders, made for a virtual class workshop during COVID-19.
-* [Go to live page](https://bloopp.herokuapp.com/)
+* [Go to live page](https://bloopp.herokuapp.com/) (https://bloopp.herokuapp.com/)
 * [View code](https://github.com/lanzhang76/bloop_shader_app)
 
 <br>
