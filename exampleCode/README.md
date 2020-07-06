@@ -148,7 +148,7 @@ Anna Garbier & Lan Zhang
 ### [Bloop: a collaborative GLSL shader environment](https://github.com/lanzhang76/bloop_shader_app)
 Anna Garbier & Lan Zhang
 * A collaborative coding environment for writing GLSL fragment shaders, made for a virtual class workshop during COVID-19.
-* [Watch demo](https://vimeo.com/manage/435915330)
+* [Watch demo](https://vimeo.com/435916448)
 * [Go to live page](https://bloopp.herokuapp.com/)
 * [View code](https://github.com/lanzhang76/bloop_shader_app)
 
