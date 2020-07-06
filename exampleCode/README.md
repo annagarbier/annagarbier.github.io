@@ -141,7 +141,7 @@ Anna Garbier & Lan Zhang
 * [Go to live page](https://toast2word.netlify.app/)
 * [View code](https://github.com/lanzhang76/toast)
 
-![Images](./exampleCode/readmeAssets/toast.png)
+![Images](../exampleCode/readmeAssets/toast.png)
 
 <br>
 
