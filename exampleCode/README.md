@@ -7,7 +7,9 @@ Rerpository of example projects, with short textual and visual descriptions of e
 
 <br>
 
-## [./soundGrid](https://github.com/annagarbier/exampleCode/edit/master/soundGrid)
+## Short projects
+
+### [./soundGrid](https://github.com/annagarbier/exampleCode/edit/master/soundGrid)
 
 An audio-responsive grid, with sound samples from the
 [Philharmonia Orchestra](https://philharmonia.co.uk/resources/sound-samples/)
@@ -17,7 +19,7 @@ and visuals inspired by Georg Nees. (**[Go to live page](https://annagarbier.git
 
 <br>
 
-## [./nlpDraw](https://github.com/annagarbier/exampleCode/edit/master/nlpDraw)
+### [./nlpDraw](https://github.com/annagarbier/exampleCode/edit/master/nlpDraw)
 
 A lightweight prototype of a language-based drawing tool. This JavaScript
 interface accepts natural language text like "draw a big blue square in
@@ -28,7 +30,7 @@ drawing on the screen. (**[Go to live page](https://annagarbier.github.io/exampl
 
 <br>
 
-## [./naiveThesaurus](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/naiveThesaurus)
+### [./naiveThesaurus](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/naiveThesaurus)
 
 A recursively naive thesaurus. When "Synonym-ize" or "Antonym-ize" is
 pressed, each word in the text box is replaced with a random synonym
@@ -40,7 +42,7 @@ if one is available.
 
 <br>
 
-## [./blueLines](https://github.com/annagarbier/exampleCode/edit/master/blueLines)
+### [./blueLines](https://github.com/annagarbier/exampleCode/edit/master/blueLines)
 
 A super-short study on the aesthetics of controlled randomness. (**[Go to live page](https://annagarbier.github.io/exampleCode/blueLines/)**)
 
@@ -48,7 +50,7 @@ A super-short study on the aesthetics of controlled randomness. (**[Go to live p
 
 <br>
 
-## [./solLewitt](https://github.com/annagarbier/exampleCode/edit/master/solLewitt)
+### [./solLewitt](https://github.com/annagarbier/exampleCode/edit/master/solLewitt)
 
 Sol LeWitt [wrote instructions](https://www.google.com/search?q=sol+lewitt+wall+drawing+instructions&rlz=1C5CHFA_enUS807US807&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjk-Py8h_bgAhVCZN8KHZKrBV4Q_AUIDigB&biw=1440&bih=766)
 for generating drawings. This project, **If Sol LeWitt Wrote Ditties**, generates
@@ -58,7 +60,7 @@ Sol LeWitt-style instructions for language generation. (**[Go to live page](http
 
 <br>
 
-## [./p5Cfg](https://github.com/annagarbier/exampleCode/edit/master/p5Cfg)
+### [./p5Cfg](https://github.com/annagarbier/exampleCode/edit/master/p5Cfg)
 
 A context-free grammar that generates infinite variations of functional [P5.js](https://p5js.org/) code.
 (**[Go to live page](https://annagarbier.github.io/exampleCode/p5Cfg/)**)
@@ -67,7 +69,7 @@ A context-free grammar that generates infinite variations of functional [P5.js](
 
 <br>
 
-## [./ekphrastic](https://github.com/annagarbier/exampleCode/edit/master/ekphrastic)
+### [./ekphrastic](https://github.com/annagarbier/exampleCode/edit/master/ekphrastic)
 
 A series of context-free grammars weave togther a dozen [ekphrastic](https://en.wikipedia.org/wiki/Ekphrasis) texts
 from The Met's Dutch Masterpieces. The result? An improvised set of fictional
