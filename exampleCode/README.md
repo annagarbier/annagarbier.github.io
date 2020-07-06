@@ -85,23 +85,23 @@ Accepts any English text (e.g. 'Hello world!') and generates an exhaustingly lon
 
 <br>
 
-### [./p5Cfg](https://github.com/annagarbier/exampleCode/edit/master/p5Cfg)
+### [./p5Cfg](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/p5Cfg)
 
 * A context-free grammar that generates infinite variations of functional [P5.js](https://p5js.org/) code.
 * [Go to live page](https://annagarbier.github.io/exampleCode/p5Cfg/)
-* [View code](https://github.com/annagarbier/exampleCode/edit/master/p5Cfg)
+* [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/p5Cfg)
 
 ![Image](https://annagarbier.github.io/exampleCode/p5Cfg/example_ten.png)
 
 <br>
 
-### [./ekphrastic](https://github.com/annagarbier/exampleCode/edit/master/ekphrastic)
+### [./ekphrastic](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/ekphrastic)
 
 * A series of context-free grammars weave togther a dozen [ekphrastic](https://en.wikipedia.org/wiki/Ekphrasis) texts
 from The Met's Dutch Masterpieces. The result? An improvised set of fictional
 remixes to ponder. Made using tracery.io.
 * [Go to live page](https://annagarbier.github.io/exampleCode/ekphrastic/)
-* [View code](https://github.com/annagarbier/exampleCode/edit/master/ekphrastic)
+* [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/ekphrastic)
 
 ![Image](https://annagarbier.github.io/exampleCode/ekphrastic/ekphrastic.png)
 
