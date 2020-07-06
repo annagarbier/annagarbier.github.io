@@ -95,10 +95,26 @@ remixes to ponder. Made using tracery.io.
 
 <br>
 
-## Extended projects & collaborations
+## Extended projects
 
 ### [text-gen]()
 
-### [toast]()
+<br>
 
-### [bloop]()
+<hr>
+
+<br>
+
+## Collaborations
+
+### [toast (word-guessing game)]()
+
+### [bloop (collaborative GLSL shader]()
+
+<br>
+
+<hr>
+
+<br>
+
+## Teaching
