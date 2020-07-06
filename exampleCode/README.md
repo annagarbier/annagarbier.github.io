@@ -118,7 +118,7 @@ remixes to ponder. Made using tracery.io.
 * [Watch demo](https://annagarbier.com/Text-Playground)
 * [View code](https://github.com/annagarbier/text_gen)
 
-![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/readmeAssets/textgen.png)
+![Image](https://annagarbier.github.io/exampleCode/readmeAssets/textgen.png)
 
 <br>
 
@@ -127,7 +127,7 @@ remixes to ponder. Made using tracery.io.
 * We know we shouldn't judge books by their coveres, but what happens when we ask a machine to?
 * [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/gutenbergCovers)
 
-![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/readmeAssets/umap.jpg)
+![Image](https://annagarbier.github.io/exampleCode/readmeAssets/umap.jpg)
 
 <br>
 <br>
@@ -141,7 +141,7 @@ Anna Garbier & Lan Zhang
 * [Go to live page](https://toast2word.netlify.app/)
 * [View code](https://github.com/lanzhang76/toast)
 
-![Images](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/readmeAssets/toast.png)
+![Images](https://annagarbier.github.io/exampleCode/readmeAssets/toast.png)
 
 <br>
 
@@ -151,4 +151,4 @@ Anna Garbier & Lan Zhang
 * [Go to live page](https://bloopp.herokuapp.com/)
 * [View code](https://github.com/lanzhang76/bloop_shader_app)
 
-![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/readmeAssets/bloop.png)
+![Image](https://annagarbier.github.io/exampleCode/readmeAssets/bloop.png)
