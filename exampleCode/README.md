@@ -90,3 +90,15 @@ remixes to ponder. Made using tracery.io.
 ![Image](https://annagarbier.github.io/exampleCode/ekphrastic/ekphrastic.png)
 
 <br>
+
+<hr>
+
+<br>
+
+## Extended projects & collaborations
+
+### [text-gen]()
+
+### [toast]()
+
+### [bloop]()
