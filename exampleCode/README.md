@@ -9,7 +9,7 @@ Rerpository of example projects, with short textual and visual descriptions of e
 
 ## Short projects
 
-### [./soundGrid](https://github.com/annagarbier/exampleCode/edit/master/soundGrid)
+### [./soundGrid](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/soundGrid)
 
 * An audio-responsive grid, with sound samples from the
 [Philharmonia Orchestra](https://philharmonia.co.uk/resources/sound-samples/)
