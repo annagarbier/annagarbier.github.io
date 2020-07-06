@@ -116,7 +116,7 @@ remixes to ponder. Made using tracery.io.
 
 <br>
 
-### [Gutenberg Covers: cover sorting with machine learning](https://github.com/annagarbier/text_gen)
+### [Gutenberg Covers: sorting cover art with machine learning](https://github.com/annagarbier/text_gen)
 
 * We know we shouldn't judge books by their coveres, but what happens when we ask a machine to?
 * [View code](https://github.com/annagarbier/text_gen)
