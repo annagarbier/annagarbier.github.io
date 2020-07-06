@@ -3,7 +3,7 @@
 *Author: annagarbier*     
 *Last update: 2020-07*
 
-Rerpository of example projects, with short textual and visual descriptions of each.
+Rerpository of example projects, with textual and visual summaries of each.
 
 > <a href="#short-projects">Shorter projects</a><br>
 <a href="#longer-projects">Longer projects</a><br>
