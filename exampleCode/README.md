@@ -81,7 +81,7 @@ Sol LeWitt-style instructions for language generation.
 Accepts any English text (e.g. 'Hello world!') and generates an exhaustingly long pronunciation guide for that text. 
 * [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/speechWriter)
 
-![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/speechWriter/speech_writer.png)
+![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/readmeAssets/speech_writer.png)
 
 <br>
 
@@ -118,7 +118,7 @@ remixes to ponder. Made using tracery.io.
 * [Watch demo](https://annagarbier.com/Text-Playground)
 * [View code](https://github.com/annagarbier/text_gen)
 
-![Image](https://github.com/annagarbier/text_gen/blob/master/textgen.png)
+![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/readmeAssets/textgen.png)
 
 <br>
 
@@ -127,7 +127,7 @@ remixes to ponder. Made using tracery.io.
 * We know we shouldn't judge books by their coveres, but what happens when we ask a machine to?
 * [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/gutenbergCovers)
 
-![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/gutenbergCovers/umap.jpg)
+![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/readmeAssets/umap.jpg)
 
 <br>
 <br>
@@ -141,7 +141,7 @@ Anna Garbier & Lan Zhang
 * [Go to live page](https://toast2word.netlify.app/)
 * [View code](https://github.com/lanzhang76/toast)
 
-![Images](https://github.com/lanzhang76/toast/blob/master/images/00.png)
+![Images](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/readmeAssets/toast.png)
 
 <br>
 
@@ -151,4 +151,4 @@ Anna Garbier & Lan Zhang
 * [Go to live page](https://bloopp.herokuapp.com/)
 * [View code](https://github.com/lanzhang76/bloop_shader_app)
 
-![Image](https://github.com/lanzhang76/bloop_shader_app/blob/master/public/assets/img01.png?raw=True)
+![Image](https://github.com/annagarbier/annagarbier.github.io/blob/master/exampleCode/readmeAssets/bloop.png)
