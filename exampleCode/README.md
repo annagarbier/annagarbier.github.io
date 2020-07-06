@@ -152,3 +152,11 @@ Anna Garbier & Lan Zhang
 * [View code](https://github.com/lanzhang76/bloop_shader_app)
 
 ![Image](https://annagarbier.github.io/exampleCode/readmeAssets/bloop.png)
+
+###  [Lineage Pattern Study](https://github.com/coded-textiles/coded-textiles.github.io/tree/master/sketches/color_04)
+Anna Garbier (sole coder) & Anette Millington
+* One of several pattern studies for textile fabrication. This particular algorithm loosely mimics DNA inheritance.
+* [Go to live page](https://coded-textiles.github.io/sketches/color_04/)
+* [View code](https://github.com/coded-textiles/coded-textiles.github.io/tree/master/sketches/color_04)
+
+![Image]()
