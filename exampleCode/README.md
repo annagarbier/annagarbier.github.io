@@ -5,18 +5,20 @@
 
 Rerpository of example projects, with short textual and visual descriptions of each.
 
+## [./soundGrid](https://github.com/annagarbier/exampleCode/edit/master/soundGrid)
+
+An audio-responsive grid, with sound samples from the
+[Philharmonia Orchestra](https://philharmonia.co.uk/resources/sound-samples/)
+and visuals inspired by Georg Nees. (**[Go to live page](https://annagarbier.github.io/exampleCode/soundGrid/)**)
+
+![Image](https://annagarbier.github.io/exampleCode/soundGrid/sound_grid.png)
+
 ## [./nlpDraw](https://github.com/annagarbier/exampleCode/edit/master/nlpDraw)
 
 A lightweight prototype of a language-based drawing tool. This JavaScript
 interface accepts natural language text like "draw a big blue square in
 the top left" or "make a tiny triangle", and generates a corresponding
-drawing on the screen.
-
-This project is an early exploration into the
-relationship between linguistic and visual communication:
-How do we (humans) talk about visuals? How do computers talk about
-visuals? How do we talk to computers about visuals?
-(**[Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)**)
+drawing on the screen. (**[Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)**)
 
 ![Image](https://annagarbier.github.io/exampleCode/nlpDraw/nlpDrawImg.png)
 
