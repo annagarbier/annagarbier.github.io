@@ -3,12 +3,14 @@
 *Author: annagarbier*     
 *Last update: 2020-07*
 
-Rerpository of example projects, with textual and visual summaries of each.
+*Rerpository of example projects, with textual and visual summaries of each.*
 
-> <a href="#short-projects">Short projects</a><br>
-<a href="#long-projects">Long projects</a><br>
-<a href="#collaborations">Collaborations</a>
+*<a href="#short-projects">Short projects</a><br>*
+*<a href="#long-projects">Long projects</a><br>*
+*<a href="#collaborations">Collaborations</a>*
 
+<br>
+<hr>
 <br>
 
 <h2 id="short-projects">Short projects</h2>
