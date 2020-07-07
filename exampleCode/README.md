@@ -123,7 +123,7 @@ remixes to ponder. Made using tracery.io.
 
 ### [./gutenbergCovers: sorting book covers with machine learning](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/gutenbergCovers)
 
-* We know we shouldn't judge books by their coveres, but what happens when we ask a machine to?
+* We know we shouldn't judge books by their covers, but what happens when we ask a machine to?
 * [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/gutenbergCovers)
 
 ![Image](https://annagarbier.github.io/exampleCode/readmeAssets/umap.jpg)
