@@ -14,6 +14,15 @@
 
 <h2 id="short-projects">Short projects</h2>
 
+### [one-a-day sketches with Paper.js](https://github.com/annagarbier/paper)
+
+* An archive of short sketches, roughly one per day, made with Paper.js.
+* [View sketches](https://github.com/annagarbier/paper)
+
+![Image](https://annagarbier.github.io/exampleCode/readmeAssets/paper.png)
+
+<br>
+
 ### [./soundGrid](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/soundGrid)
 
 * An audio-responsive grid, with sound samples from the
