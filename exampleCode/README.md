@@ -14,7 +14,7 @@
 
 <h2 id="short-projects">Short projects</h2>
 
-### [one-a-day sketches with Paper.js](https://github.com/annagarbier/paper)
+### [One-a-day sketches with Paper.js](https://github.com/annagarbier/paper)
 
 * An archive of short sketches, roughly one per day, made with Paper.js.
 * [View sketches](https://github.com/annagarbier/paper)
