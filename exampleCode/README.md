@@ -17,7 +17,7 @@
 ### [One-a-day sketches with Paper.js](https://github.com/annagarbier/paper)
 
 * An archive of short sketches, roughly one per day, made with Paper.js.
-* [View sketches](https://github.com/annagarbier/paper)
+* [View sketches & code](https://github.com/annagarbier/paper)
 
 ![Image](https://annagarbier.github.io/exampleCode/readmeAssets/paper.png)
 
