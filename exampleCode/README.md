@@ -29,7 +29,7 @@
 [Philharmonia Orchestra](https://philharmonia.co.uk/resources/sound-samples/)
 and visuals inspired by Georg Nees.
 * [Go to live page](https://annagarbier.github.io/exampleCode/soundGrid/)
-* [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/soundGrid)
+* <a href="https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/soundGrid" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/soundGrid/sound_grid.png)
 
@@ -42,7 +42,7 @@ interface accepts natural language text like "draw a big blue square in
 the top left" or "make a tiny triangle", and generates a corresponding
 drawing on the screen.
 * [Go to live page](https://annagarbier.github.io/exampleCode/nlpDraw/)
-* [View code](https://github.com/annagarbier/exampleCode/edit/master/nlpDraw)
+* <a href="https://github.com/annagarbier/exampleCode/edit/master/nlpDraw" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/nlpDraw/nlpDrawImg.png)
 
@@ -55,7 +55,7 @@ pressed, each word in the text box is replaced with a random synonym
 or antonym from the [Merriam-Webster Thesaurus](https://www.dictionaryapi.com/products/api-collegiate-thesaurus),
 if one is available.
 * [Go to live page](https://annagarbier.github.io/exampleCode/naiveThesaurus/)
-* [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/naiveThesaurus)
+* <a href="https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/naiveThesaurus" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/naiveThesaurus/naiveThesaurus.png)
 
@@ -65,7 +65,7 @@ if one is available.
 
 * A super-short study on the aesthetics of controlled randomness.
 * [Go to live page](https://annagarbier.github.io/exampleCode/blueLines/)
-* [View code](https://github.com/annagarbier/exampleCode/edit/master/blueLines)
+* <a href="https://github.com/annagarbier/exampleCode/edit/master/blueLines" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/blueLines/blueLinesImg.png)
 
@@ -77,7 +77,7 @@ if one is available.
 for generating drawings. This project, **If Sol LeWitt Wrote Ditties**, generates
 Sol LeWitt-style instructions for language generation.
 * [Go to live page](https://annagarbier.github.io/exampleCode/solLewitt/)
-* [View code](https://github.com/annagarbier/exampleCode/edit/master/solLewitt)
+* <a href="https://github.com/annagarbier/exampleCode/edit/master/solLewitt" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/solLewitt/solLewittImg.png)
 
@@ -87,7 +87,7 @@ Sol LeWitt-style instructions for language generation.
 
 * A Python-based iteration of **If Sol LeWitt Wrote Ditties**, with added complexity.
 Accepts any English text (e.g. 'Hello world!') and generates an exhaustingly long pronunciation guide for that text. 
-* [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/speechWriter)
+* <a href="https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/speechWriter" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/speechWriter/speech_writer.png)
 
@@ -97,7 +97,7 @@ Accepts any English text (e.g. 'Hello world!') and generates an exhaustingly lon
 
 * A context-free grammar that generates infinite variations of functional [P5.js](https://p5js.org/) code.
 * [Go to live page](https://annagarbier.github.io/exampleCode/p5Cfg/)
-* [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/p5Cfg)
+* <a href="https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/p5Cfg" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/p5Cfg/example_ten.png)
 
@@ -109,7 +109,7 @@ Accepts any English text (e.g. 'Hello world!') and generates an exhaustingly lon
 from The Met's Dutch Masterpieces. The result? An improvised set of fictional
 remixes to ponder. Made using tracery.io.
 * [Go to live page](https://annagarbier.github.io/exampleCode/ekphrastic/)
-* [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/ekphrastic)
+* <a href="https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/ekphrastic" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/ekphrastic/ekphrastic.png)
 
@@ -124,7 +124,7 @@ remixes to ponder. Made using tracery.io.
 * A visual programming interface for text manipulation, built with the Rete.js library.
 * Work in progress - not yet live
 * [Watch demo](https://annagarbier.com/Text-Playground)
-* [View code](https://github.com/annagarbier/text_gen)
+* <a href="https://github.com/annagarbier/text_gen" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/readmeAssets/textgen.png)
 
@@ -133,7 +133,7 @@ remixes to ponder. Made using tracery.io.
 ### [./gutenbergCovers: sorting book covers with machine learning](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/gutenbergCovers)
 
 * We know we shouldn't judge books by their covers, but what happens when we ask a machine to?
-* [View code](https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/gutenbergCovers)
+* <a href="https://github.com/annagarbier/annagarbier.github.io/tree/master/exampleCode/gutenbergCovers" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/readmeAssets/umap.jpg)
 
@@ -148,7 +148,7 @@ Anna Garbier & Lan Zhang
 * A word-guessing game made using vector math (word2vec), and playable on the web.
 * [Watch demo](https://vimeo.com/435915330)
 * [Go to live page](https://toast2word.netlify.app/)
-* [View code](https://github.com/lanzhang76/toast)
+* <a href="https://github.com/lanzhang76/toast" target="blank">View code</a>
 
 ![Images](https://annagarbier.github.io/exampleCode/readmeAssets/toast.png)
 
@@ -159,7 +159,7 @@ Anna Garbier & Lan Zhang
 * A collaborative coding environment for writing GLSL fragment shaders, made for a virtual class workshop during COVID-19.
 * [Watch demo](https://vimeo.com/435916448)
 * [Go to live page](https://bloopp.herokuapp.com/)
-* [View code](https://github.com/lanzhang76/bloop_shader_app)
+* <a href="https://github.com/lanzhang76/bloop_shader_app" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/readmeAssets/bloop.png)
 
@@ -167,6 +167,6 @@ Anna Garbier & Lan Zhang
 Anna Garbier (sole coder) & Anette Millington
 * One of several pattern studies for textile fabrication. This particular algorithm loosely mimics DNA inheritance.
 * [Go to live page](https://coded-textiles.github.io/sketches/color_04/)
-* [View code](https://github.com/coded-textiles/coded-textiles.github.io/tree/master/sketches/color_04)
+* <a href="https://github.com/coded-textiles/coded-textiles.github.io/tree/master/sketches/color_04" target="blank">View code</a>
 
 ![Image](https://annagarbier.github.io/exampleCode/readmeAssets/lineage.png)
