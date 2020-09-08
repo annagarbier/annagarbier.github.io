@@ -119,6 +119,16 @@ remixes to ponder. Made using tracery.io.
 
 <h2 id="long-projects">Long projects</h2>
 
+### [toast2word v1 (global)](https://github.com/annagarbier/toast2word)
+* A machine learning remake of a traditional word-guessing game made using word embeddings
+* [Watch demo](https://vimeo.com/455625740)
+* [Read more](https://annagarbier.com/Toast2word-v1-Global)
+* <a href="https://github.com/annagarbier/toast2word" target="blank">View code</a>
+
+![Images](https://annagarbier.github.io/exampleCode/readmeAssets/toast2word_v1.png)
+
+<br>
+
 ### [text-gen: visual programming for text manipulation](https://github.com/annagarbier/text_gen)
 
 * A visual programming interface for text manipulation, built with the Rete.js library.
@@ -143,9 +153,9 @@ remixes to ponder. Made using tracery.io.
 
 <h2 id="collaborations">Collaborations</h2>
 
-### [toast2word: a word-guessing game with vector math](https://github.com/lanzhang76/toast)
+### [toast2word v0 (datasets)](https://github.com/lanzhang76/toast)
 Anna Garbier & Lan Zhang
-* A word-guessing game made using vector math (word2vec), and playable on the web.
+* An interface for linguistic dataset exploration, using word embeddings
 * [Watch demo](https://vimeo.com/435915330)
 * [Go to live page](https://toast2word.netlify.app/)
 * <a href="https://github.com/lanzhang76/toast" target="blank">View code</a>
