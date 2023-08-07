@@ -8,6 +8,10 @@ body {
   font-weight: 100;
 }
 
+.instruction {
+  color: gray;
+}
+
 #nav-div {
   position: relative;
   min-height: 20px;
